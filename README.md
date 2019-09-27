@@ -1,2 +1,3 @@
-# COS214_GP
-# COS214_GP
+# Place ALL .cpp files in the src folder
+# place ALL .h files in the include folder
+# 
