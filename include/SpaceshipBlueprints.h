@@ -10,18 +10,23 @@
 
 using namespace std;
 
-///This class is the abstract factory class and is used to define an abstract blueprint
-///It gives access to all the different blueprints used to create differen spaceships
-///It also has all the virtual create methods which are inherited by the concrete blueprints
-///
+/**This class is the abstract factory class and is used to define an abstract blueprint.
+*It gives access to all the different blueprints used to create different spaceships.
+*It also has all the virtual create methods which are inherited by the concrete blueprints.
+*/
 
 class SpaceshipBlueprints
 {
 private:
     /* data */
 public:
+    ///SpaceshipBlueprints constructor.
     SpaceshipBlueprints(/* args */);
+    ///SpaceshipBlueprints destructor.
     ~SpaceshipBlueprints();
+    /**pure virtual function to be implemented in the concrete blueprints which will allow 
+     *the space station to create space ships.
+    */
     virtual Spaceships* createSpaceship() = 0;
 };
 
