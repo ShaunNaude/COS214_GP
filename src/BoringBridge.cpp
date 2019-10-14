@@ -9,5 +9,5 @@ BoringBridge::~BoringBridge()
 }
 
 void BoringBridge::printComponent(){
-    cout<<"Boring bridge on the spaceship"<<endl;
+    cout<<"Boring bridge on this spaceship"<<endl;
 }

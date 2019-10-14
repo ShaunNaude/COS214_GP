@@ -8,6 +8,6 @@ BattleshipBlueprint::~BattleshipBlueprint()
 }
 
 Spaceships* BattleshipBlueprint::createSpaceship(){
-    Battleship* battleship = new Battleship();
+    Spaceships* battleship = new Battleship();
     return battleship;
 }
