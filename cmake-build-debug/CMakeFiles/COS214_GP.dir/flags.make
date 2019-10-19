@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips" 
+CXX_INCLUDES = -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Critters" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Fleet" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Planets" -I"/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips" 
 

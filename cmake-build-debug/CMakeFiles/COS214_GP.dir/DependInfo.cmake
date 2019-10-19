@@ -4,7 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/Critter.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Critters/Critter.cpp.o"
   "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Captain.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Captain.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Commander.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Commander.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Doctor.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Doctor.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Engineer.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Engineer.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Human.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Human.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Navigator.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Navigator.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Soldier.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Soldier.cpp.o"
+  "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/chiefEngineer.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/chiefEngineer.cpp.o"
   "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o"
   "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planet.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.o"
   "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Route.cpp" "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.o"
@@ -35,7 +44,10 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../include/Critters"
+  "../include/Fleet"
   "../include/ManningTheSpaceships"
+  "../include/Planets"
   "../include/SpaceShips"
   )
 
