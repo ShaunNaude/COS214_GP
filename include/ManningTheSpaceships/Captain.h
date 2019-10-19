@@ -10,12 +10,7 @@
 class Captain: public Person
 {
 private:
-    string ship;
-    string Name;
-    int WellBeing;
-    string Duty;
-    bool onDuty;
-    bool injured;
+
 public:
 
 //Constructor and destructor

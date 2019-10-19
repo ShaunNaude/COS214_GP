@@ -24,7 +24,7 @@ add_executable(COS214_GP
         include/ManningTheSpaceships/FleetComander.h
         include/ManningTheSpaceships/Navigator.h
         include/ManningTheSpaceships/NavigatorCreator.h
-        include/ManningTheSpaceships/ParsonCreator.h
+        include/ManningTheSpaceships/PersonCreator.h
         include/ManningTheSpaceships/Person.h
         include/ManningTheSpaceships/ShipPassangersMemento.h
         include/SpaceShips/Battleship.h
