@@ -12,15 +12,24 @@ include_directories(include/SpaceShips)
 
 add_executable(COS214_GP
         include/Critters/Critter.h
+        include/Critters/critterGrunt.h
         include/Fleet/Fleet.h
         include/ManningTheSpaceships/Captain.h
         include/ManningTheSpaceships/chiefEngineer.h
+        include/ManningTheSpaceships/combatCrew.h
+        include/ManningTheSpaceships/combatCrewFactory.h
         include/ManningTheSpaceships/Commander.h
+        include/ManningTheSpaceships/Crew.cpp
+        include/ManningTheSpaceships/Crew.h
+        include/ManningTheSpaceships/crewFactory.h
         include/ManningTheSpaceships/Doctor.h
         include/ManningTheSpaceships/Engineer.h
         include/ManningTheSpaceships/Human.h
         include/ManningTheSpaceships/Navigator.h
+        include/ManningTheSpaceships/regularCrew.h
+        include/ManningTheSpaceships/regularCrewFactory.h
         include/ManningTheSpaceships/Soldier.h
+        include/Planets/homePlanet.h
         include/Planets/Map.h
         include/Planets/Planet.h
         include/Planets/Route.h
@@ -29,18 +38,8 @@ add_executable(COS214_GP
         include/SpaceShips/BoringBridge.h
         include/SpaceShips/BoringSickBay.h
         include/SpaceShips/BoringSleepQuarters.h
-        include/SpaceShips/Captain.h
         include/SpaceShips/CaptainCreator.h
-        include/SpaceShips/ChiefEngineer.h
-        include/SpaceShips/ChiefEngineerCreator.h
-        include/SpaceShips/ComanderOfFleetCreator.h
-        include/SpaceShips/Comms.h
-        include/SpaceShips/CommsCreator.h
         include/SpaceShips/decorator.h
-        include/SpaceShips/Doctor.h
-        include/SpaceShips/DoctorCreator.h
-        include/SpaceShips/EngineerCreator.h
-        include/SpaceShips/Engineers.h
         include/SpaceShips/Exploration_vessel.h
         include/SpaceShips/Exploration_vesselBlueprint.h
         include/SpaceShips/FancyBridge.h
@@ -56,6 +55,7 @@ add_executable(COS214_GP
         include/SpaceShips/Transporter.h
         include/SpaceShips/TransporterBlueprint.h
         src/Critters/Critter.cpp
+        src/Critters/critterGrunt.cpp
         src/Fleet/Fleet.cpp
         src/ManningTheSpaceships/Captain.cpp
         src/ManningTheSpaceships/chiefEngineer.cpp
@@ -64,7 +64,9 @@ add_executable(COS214_GP
         src/ManningTheSpaceships/Engineer.cpp
         src/ManningTheSpaceships/Human.cpp
         src/ManningTheSpaceships/Navigator.cpp
+        src/ManningTheSpaceships/regularCrew.cpp
         src/ManningTheSpaceships/Soldier.cpp
+        src/Planets/homePlanet.cpp
         src/Planets/Map.cpp
         src/Planets/Planet.cpp
         src/Planets/Route.cpp
@@ -83,9 +85,9 @@ add_executable(COS214_GP
         src/SpaceShips/FighterBlueprint.cpp
         src/SpaceShips/Frigate.cpp
         src/SpaceShips/FrigateBlueprint.cpp
-        src/SpaceShips/main.cpp
         src/SpaceShips/SpaceshipBlueprints.cpp
         src/SpaceShips/Spaceships.cpp
         src/SpaceShips/SpaceStation.cpp
         src/SpaceShips/Transporter.cpp
-        src/SpaceShips/TransporterBlueprint.cpp src/Critters/critterGrunt.cpp include/Critters/critterGrunt.h DanieTestMain.cpp src/Planets/homePlanet.cpp include/Planets/homePlanet.h)
+        src/SpaceShips/TransporterBlueprint.cpp
+        DanieTestMain.cpp)

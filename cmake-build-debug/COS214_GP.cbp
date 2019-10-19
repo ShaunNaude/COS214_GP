@@ -114,6 +114,12 @@
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Commander.h">
 			<Option target="COS214_GP"/>
 		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.h">
+			<Option target="COS214_GP"/>
+		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Doctor.h">
 			<Option target="COS214_GP"/>
 		</Unit>
@@ -130,6 +136,21 @@
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/chiefEngineer.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/combatCrew.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/combatCrewFactory.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/crewFactory.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/regularCrew.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/regularCrewFactory.h">
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Planets/Map.h">
@@ -159,37 +180,7 @@
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/BoringSleepQuarters.h">
 			<Option target="COS214_GP"/>
 		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/Captain.h">
-			<Option target="COS214_GP"/>
-		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/CaptainCreator.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/ChiefEngineer.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/ChiefEngineerCreator.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/ComanderOfFleetCreator.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/Comms.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/CommsCreator.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/Doctor.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/DoctorCreator.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/EngineerCreator.h">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/Engineers.h">
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/Exploration_vessel.h">
@@ -270,6 +261,9 @@
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/chiefEngineer.cpp">
 			<Option target="COS214_GP"/>
 		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/regularCrew.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp">
 			<Option target="COS214_GP"/>
 		</Unit>
@@ -340,9 +334,6 @@
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/decorator.cpp">
-			<Option target="COS214_GP"/>
-		</Unit>
-		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/main.cpp">
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/CMakeLists.txt">

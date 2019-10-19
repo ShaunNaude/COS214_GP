@@ -10,13 +10,13 @@
 
 class Route {
 private:
-    Planet* startPlanet;
-    Planet* endPlanet;
+    Planet* Planet1;
+    Planet* Planet2;
     int distance;
 public:
     Route(Planet* start , Planet* end , int dist );
-    Planet* getStartPlanet();
-    Planet* getEndPlanet();
+    Planet* getPlanet1();
+    Planet* getPlanet2();
     int getDistance();
 };
 

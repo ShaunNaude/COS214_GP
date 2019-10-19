@@ -3,6 +3,15 @@
 
 CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o
  /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/DanieTestMain.cpp
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o
+ ../include/ManningTheSpaceships/Captain.h
+ ../include/ManningTheSpaceships/Doctor.h
+ ../include/ManningTheSpaceships/Engineer.h
+ ../include/ManningTheSpaceships/Human.h
+ ../include/ManningTheSpaceships/Navigator.h
+ ../include/ManningTheSpaceships/chiefEngineer.h
+ /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.cpp
+ /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.h
 CMakeFiles/COS214_GP.dir/src/Critters/Critter.cpp.o
  ../include/Critters/Critter.h
  /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/Critter.cpp
@@ -49,6 +58,16 @@ CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/chiefEngineer.cpp.o
  ../include/ManningTheSpaceships/Human.h
  ../include/ManningTheSpaceships/chiefEngineer.h
  /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/chiefEngineer.cpp
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o
+ ../include/ManningTheSpaceships/Captain.h
+ ../include/ManningTheSpaceships/Crew.h
+ ../include/ManningTheSpaceships/Doctor.h
+ ../include/ManningTheSpaceships/Engineer.h
+ ../include/ManningTheSpaceships/Human.h
+ ../include/ManningTheSpaceships/Navigator.h
+ ../include/ManningTheSpaceships/chiefEngineer.h
+ ../include/ManningTheSpaceships/regularCrew.h
+ /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/regularCrew.cpp
 CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o
  ../include/Planets/Map.h
  ../include/Planets/Planet.h
@@ -185,5 +204,3 @@ CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o
  ../include/SpaceShips/Spaceships.h
  ../include/SpaceShips/decorator.h
  /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/decorator.cpp
-CMakeFiles/COS214_GP.dir/src/SpaceShips/main.cpp.o
- /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/main.cpp

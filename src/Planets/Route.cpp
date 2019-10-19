@@ -6,18 +6,18 @@
 
 Route::Route(Planet *start, Planet *end, int dist) {
 
-    startPlanet = start;
-    endPlanet = end;
+    Planet1 = start;
+    Planet2 = end;
     distance = dist;
 
 }
 
-Planet *Route::getEndPlanet() {
-    return endPlanet;
+Planet *Route::getPlanet2() {
+    return Planet2;
 }
 
-Planet *Route::getStartPlanet() {
-    return startPlanet;
+Planet *Route::getPlanet1() {
+    return Planet1;
 }
 
 int Route::getDistance() {

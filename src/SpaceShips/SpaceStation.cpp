@@ -1,5 +1,5 @@
 #include "SpaceShips/SpaceStation.h"
-#include <iostream>;
+#include <iostream>
 using namespace std;
 
 SpaceStation::SpaceStation(/* args */)

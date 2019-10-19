@@ -8,6 +8,10 @@
 
 ../include/Critters/Critter.h
 
+../include/Critters/critterGrunt.h
+Critter.h
+../include/Critters/Critter.h
+
 ../include/Fleet/Fleet.h
 SpaceShips/Spaceships.h
 -
@@ -17,6 +21,58 @@ SpaceShips/SpaceStation.h
 -
 Planets/Map.h
 -
+
+../include/ManningTheSpaceships/Captain.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Commander.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Crew.h
+ManningTheSpaceships/Engineer.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Engineer.h
+ManningTheSpaceships/Doctor.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Doctor.h
+ManningTheSpaceships/chiefEngineer.h
+../include/ManningTheSpaceships/ManningTheSpaceships/chiefEngineer.h
+ManningTheSpaceships/Captain.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Captain.h
+ManningTheSpaceships/Navigator.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Navigator.h
+vector
+-
+cmath
+-
+
+../include/ManningTheSpaceships/Doctor.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Engineer.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Human.h
+string
+-
+
+../include/ManningTheSpaceships/Navigator.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Soldier.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/chiefEngineer.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/regularCrew.h
+ManningTheSpaceships/Crew.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Crew.h
 
 ../include/Planets/Map.h
 vector
@@ -134,11 +190,79 @@ Spaceships.h
 iostream
 -
 
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/DanieTestMain.cpp
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.cpp
+Crew.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Crew.h
+ManningTheSpaceships/Engineer.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/ManningTheSpaceships/Engineer.h
+ManningTheSpaceships/Doctor.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/ManningTheSpaceships/Doctor.h
+ManningTheSpaceships/chiefEngineer.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/ManningTheSpaceships/chiefEngineer.h
+ManningTheSpaceships/Captain.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/ManningTheSpaceships/Captain.h
+ManningTheSpaceships/Navigator.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/ManningTheSpaceships/Navigator.h
+vector
+-
+cmath
+-
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/Critter.cpp
+cstdlib
+-
+Critters/Critter.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/Critters/Critter.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/critterGrunt.cpp
+critterGrunt.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/critterGrunt.h
+
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp
 Planets/homePlanet.h
 -
 Fleet/Fleet.h
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet/Fleet.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Captain.cpp
+ManningTheSpaceships/Captain.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/ManningTheSpaceships/Captain.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Commander.cpp
+Commander.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Commander.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Doctor.cpp
+ManningTheSpaceships/Doctor.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/ManningTheSpaceships/Doctor.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Engineer.cpp
+ManningTheSpaceships/Engineer.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/ManningTheSpaceships/Engineer.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Human.cpp
+ManningTheSpaceships/Human.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Navigator.cpp
+ManningTheSpaceships/Navigator.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/ManningTheSpaceships/Navigator.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Soldier.cpp
+ManningTheSpaceships/Soldier.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/ManningTheSpaceships/Soldier.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/chiefEngineer.cpp
+chiefEngineer.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/chiefEngineer.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/regularCrew.cpp
+regularCrew.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/regularCrew.h
 
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp
 Planets/Map.h

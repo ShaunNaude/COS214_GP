@@ -3,6 +3,15 @@
 
 CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o: ../DanieTestMain.cpp
 
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Captain.h
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Doctor.h
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Engineer.h
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Human.h
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Navigator.h
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/chiefEngineer.h
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Crew.cpp
+CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o: ../include/ManningTheSpaceships/Crew.h
+
 CMakeFiles/COS214_GP.dir/src/Critters/Critter.cpp.o: ../include/Critters/Critter.h
 CMakeFiles/COS214_GP.dir/src/Critters/Critter.cpp.o: ../src/Critters/Critter.cpp
 
@@ -48,6 +57,16 @@ CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Soldier.cpp.o: ../src/ManningT
 CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/chiefEngineer.cpp.o: ../include/ManningTheSpaceships/Human.h
 CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/chiefEngineer.cpp.o: ../include/ManningTheSpaceships/chiefEngineer.h
 CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/chiefEngineer.cpp.o: ../src/ManningTheSpaceships/chiefEngineer.cpp
+
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/Captain.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/Crew.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/Doctor.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/Engineer.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/Human.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/Navigator.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/chiefEngineer.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../include/ManningTheSpaceships/regularCrew.h
+CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o: ../src/ManningTheSpaceships/regularCrew.cpp
 
 CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o: ../include/Planets/Map.h
 CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o: ../include/Planets/Planet.h
@@ -184,6 +203,4 @@ CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o: ../src/Space
 CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o: ../include/SpaceShips/Spaceships.h
 CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o: ../include/SpaceShips/decorator.h
 CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o: ../src/SpaceShips/decorator.cpp
-
-CMakeFiles/COS214_GP.dir/src/SpaceShips/main.cpp.o: ../src/SpaceShips/main.cpp
 
