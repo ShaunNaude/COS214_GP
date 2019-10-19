@@ -23,6 +23,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.o"
   "CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.o"
   "CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o"
+  "CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o"
   "COS214_GP.pdb"
   "COS214_GP"
 )

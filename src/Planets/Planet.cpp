@@ -22,4 +22,13 @@ vector<Route *> Planet::getNeighbours() {
 Planet::Planet(string name, int resources) {
     planetName = name;
     this->resources = resources;
+    discovered = false;
+}
+
+bool Planet::isDiscovered() const {
+    return discovered;
+}
+
+void Planet::setDiscovered(bool discovered) {
+    Planet::discovered = discovered;
 }

@@ -90,6 +90,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Fleet/Fleet.h">
+			<Option target="COS214_GP"/>
+		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/Captain.h">
 			<Option target="COS214_GP"/>
 		</Unit>
@@ -247,6 +250,9 @@
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/decorator.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp">
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp">

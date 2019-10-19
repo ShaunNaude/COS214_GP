@@ -123,6 +123,33 @@ COS214_GP/fast:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/build
 .PHONY : COS214_GP/fast
 
+src/Fleet/Fleet.o: src/Fleet/Fleet.cpp.o
+
+.PHONY : src/Fleet/Fleet.o
+
+# target to build an object file
+src/Fleet/Fleet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o
+.PHONY : src/Fleet/Fleet.cpp.o
+
+src/Fleet/Fleet.i: src/Fleet/Fleet.cpp.i
+
+.PHONY : src/Fleet/Fleet.i
+
+# target to preprocess a source file
+src/Fleet/Fleet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.i
+.PHONY : src/Fleet/Fleet.cpp.i
+
+src/Fleet/Fleet.s: src/Fleet/Fleet.cpp.s
+
+.PHONY : src/Fleet/Fleet.s
+
+# target to generate assembly for a file
+src/Fleet/Fleet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.s
+.PHONY : src/Fleet/Fleet.cpp.s
+
 src/Planets/Map.o: src/Planets/Map.cpp.o
 
 .PHONY : src/Planets/Map.o
@@ -780,6 +807,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COS214_GP"
 	@echo "... edit_cache"
+	@echo "... src/Fleet/Fleet.o"
+	@echo "... src/Fleet/Fleet.i"
+	@echo "... src/Fleet/Fleet.s"
 	@echo "... src/Planets/Map.o"
 	@echo "... src/Planets/Map.i"
 	@echo "... src/Planets/Map.s"

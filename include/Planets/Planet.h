@@ -15,12 +15,15 @@ private:
     string planetName;
     vector<Route*> neighbourPlanets;
     int resources;
-
+    bool discovered;
 public:
+    bool isDiscovered() const;
+    void setDiscovered(bool discovered);
     Planet(string name , int resources);
     void addNeighbour(Route* r);
     vector<Route*> getNeighbours();
     int getResources();
+
 
 
 

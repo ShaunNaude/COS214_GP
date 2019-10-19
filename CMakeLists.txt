@@ -78,4 +78,4 @@ add_executable(COS214_GP
         src/SpaceShips/Spaceships.cpp
         src/SpaceShips/SpaceStation.cpp
         src/SpaceShips/Transporter.cpp
-        src/SpaceShips/TransporterBlueprint.cpp src/Planets/Planet.cpp include/Planets/Planet.h src/Planets/Route.cpp include/Planets/Route.h src/Planets/Map.cpp include/Planets/Map.h)
+        src/SpaceShips/TransporterBlueprint.cpp src/Planets/Planet.cpp include/Planets/Planet.h src/Planets/Route.cpp include/Planets/Route.h src/Planets/Map.cpp include/Planets/Map.h src/Fleet/Fleet.cpp include/Fleet/Fleet.h)
