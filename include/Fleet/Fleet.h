@@ -15,9 +15,7 @@ class Fleet {
 private:
     int resourcesFleet;
     Map* mapFleet;
-    vector<Spaceships*> offensiveShips;
-    vector<Spaceships*> transporterList;
-    vector<Spaceships*> explorationList;
+    vector<Spaceships*> shipsFleet;
     SpaceStation* spaceStation;
 
 
