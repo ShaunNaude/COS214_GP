@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Critters/Critter.h
+
+../include/Fleet/Fleet.h
+SpaceShips/Spaceships.h
+-
+vector
+-
+SpaceShips/SpaceStation.h
+-
+Planets/Map.h
+-
+
+../include/Planets/Map.h
+vector
+-
+Planet.h
+../include/Planets/Planet.h
+
+../include/Planets/Planet.h
+vector
+-
+string
+-
+
+../include/Planets/Route.h
+Planet.h
+../include/Planets/Planet.h
+
+../include/Planets/homePlanet.h
+Planet.h
+../include/Planets/Planet.h
+
+../include/SpaceShips/SpaceStation.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+vector
+-
+
+../include/SpaceShips/Spaceships.h
+string
+-
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp
+Planets/homePlanet.h
+-
+Fleet/Fleet.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet/Fleet.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp
+Planets/Map.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/Map.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planet.cpp
+vector
+-
+iostream
+-
+Critters/Critter.h
+-
+Planets/Planet.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/Planet.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Route.cpp
+Planets/Route.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/Route.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.cpp
+homePlanet.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.h
+

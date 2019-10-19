@@ -6,7 +6,73 @@ Spaceships::Spaceships(/* args */)
 Spaceships::~Spaceships()
 {
 }
-///getters
+
+int Spaceships::getDisplacement() const {
+    return Displacement;
+}
+
+void Spaceships::setDisplacement(int displacement) {
+    Displacement = displacement;
+}
+
+int Spaceships::getPower() const {
+    return Power;
+}
+
+void Spaceships::setPower(int power) {
+    Power = power;
+}
+
+int Spaceships::getThrust() const {
+    return Thrust;
+}
+
+void Spaceships::setThrust(int thrust) {
+    Thrust = thrust;
+}
+
+int Spaceships::getMaxSpeed() const {
+    return Max_speed;
+}
+
+void Spaceships::setMaxSpeed(int maxSpeed) {
+    Max_speed = maxSpeed;
+}
+
+int Spaceships::getStallSpeed() const {
+    return Stall_speed;
+}
+
+void Spaceships::setStallSpeed(int stallSpeed) {
+    Stall_speed = stallSpeed;
+}
+
+int Spaceships::getCandPCapacity() const {
+    return CandP_Capacity;
+}
+
+void Spaceships::setCandPCapacity(int candPCapacity) {
+    CandP_Capacity = candPCapacity;
+}
+
+int Spaceships::getEnergy() const {
+    return Energy;
+}
+
+void Spaceships::setEnergy(int energy) {
+    Energy = energy;
+}
+///Other functions
+void Spaceships::DepleteEnergy(int amountLost) {
+
+    Energy -= amountLost;
+
+}
+
+///Decorator function
+void printComponent(){}
+
+/* ///getters
 int getDisplacement(){}
 int getPower(){}
 int getThrust(){}
@@ -21,8 +87,4 @@ void setThrust(int){}
 void setMax_speed(int){}
 void setStall_speed(int){}
 void setCandP_Capacity(int){}
-void setEnergy(int){}
-///Other functions
-void DepleteEnergy(int){}
-///Decorator function
-void printComponent(){}
+void setEnergy(int){}*/

@@ -13,9 +13,11 @@ using namespace std;
 class Map {
 private:
     vector<Planet*> planetList;
+    vector<Route*> routesPlanets;
 public:
     Map();
     void addPlanet(Planet* p);
+    void addRoute(Route* r);
 };
 
 

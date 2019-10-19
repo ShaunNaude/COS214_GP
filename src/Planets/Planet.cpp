@@ -4,21 +4,14 @@
 
 #include <vector>
 #include <iostream>
+#include <Critters/Critter.h>
 #include "Planets/Planet.h"
 
-void Planet::addNeighbour(Route* r) {
-
-    neighbourPlanets.push_back(r);
-
-}
 
 int Planet::getResources() {
     return resources;
 }
 
-vector<Route *> Planet::getNeighbours() {
-    return neighbourPlanets;
-}
 
 Planet::Planet(string name, int resources) {
     planetName = name;
@@ -42,7 +35,7 @@ void Planet::setHabitable(bool habitable) {
     Planet::habitable = habitable;
 }
 
-const string &Planet::getPlanetName() const {
+string Planet::getPlanetName()  {
     if(discovered){
         return planetName;
     }else{
@@ -77,4 +70,18 @@ void Planet::setStatus(const string &status) {
 int Planet::getRelationship() const {
     return relationship;
 }
+
+const vector<Critter*> &Planet::getCrittersPlanet() const {
+    return crittersPlanet;
+}
+
+void Planet::calculateRelationship() {
+    relationship = 0;
+    for(auto it = crittersPlanet.begin(); it!= crittersPlanet.end();it++){
+        relationship += (*it)->getHumanToleranceLevel();
+    }
+
+
+}
+
 

@@ -123,6 +123,33 @@ COS214_GP/fast:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/build
 .PHONY : COS214_GP/fast
 
+DanieTestMain.o: DanieTestMain.cpp.o
+
+.PHONY : DanieTestMain.o
+
+# target to build an object file
+DanieTestMain.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o
+.PHONY : DanieTestMain.cpp.o
+
+DanieTestMain.i: DanieTestMain.cpp.i
+
+.PHONY : DanieTestMain.i
+
+# target to preprocess a source file
+DanieTestMain.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.i
+.PHONY : DanieTestMain.cpp.i
+
+DanieTestMain.s: DanieTestMain.cpp.s
+
+.PHONY : DanieTestMain.s
+
+# target to generate assembly for a file
+DanieTestMain.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.s
+.PHONY : DanieTestMain.cpp.s
+
 src/Critters/Critter.o: src/Critters/Critter.cpp.o
 
 .PHONY : src/Critters/Critter.o
@@ -149,6 +176,33 @@ src/Critters/Critter.s: src/Critters/Critter.cpp.s
 src/Critters/Critter.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Critters/Critter.cpp.s
 .PHONY : src/Critters/Critter.cpp.s
+
+src/Critters/critterGrunt.o: src/Critters/critterGrunt.cpp.o
+
+.PHONY : src/Critters/critterGrunt.o
+
+# target to build an object file
+src/Critters/critterGrunt.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o
+.PHONY : src/Critters/critterGrunt.cpp.o
+
+src/Critters/critterGrunt.i: src/Critters/critterGrunt.cpp.i
+
+.PHONY : src/Critters/critterGrunt.i
+
+# target to preprocess a source file
+src/Critters/critterGrunt.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.i
+.PHONY : src/Critters/critterGrunt.cpp.i
+
+src/Critters/critterGrunt.s: src/Critters/critterGrunt.cpp.s
+
+.PHONY : src/Critters/critterGrunt.s
+
+# target to generate assembly for a file
+src/Critters/critterGrunt.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.s
+.PHONY : src/Critters/critterGrunt.cpp.s
 
 src/Fleet/Fleet.o: src/Fleet/Fleet.cpp.o
 
@@ -473,6 +527,33 @@ src/Planets/Route.s: src/Planets/Route.cpp.s
 src/Planets/Route.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.s
 .PHONY : src/Planets/Route.cpp.s
+
+src/Planets/homePlanet.o: src/Planets/homePlanet.cpp.o
+
+.PHONY : src/Planets/homePlanet.o
+
+# target to build an object file
+src/Planets/homePlanet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o
+.PHONY : src/Planets/homePlanet.cpp.o
+
+src/Planets/homePlanet.i: src/Planets/homePlanet.cpp.i
+
+.PHONY : src/Planets/homePlanet.i
+
+# target to preprocess a source file
+src/Planets/homePlanet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.i
+.PHONY : src/Planets/homePlanet.cpp.i
+
+src/Planets/homePlanet.s: src/Planets/homePlanet.cpp.s
+
+.PHONY : src/Planets/homePlanet.s
+
+# target to generate assembly for a file
+src/Planets/homePlanet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.s
+.PHONY : src/Planets/homePlanet.cpp.s
 
 src/SpaceShips/Battleship.o: src/SpaceShips/Battleship.cpp.o
 
@@ -1050,9 +1131,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COS214_GP"
 	@echo "... edit_cache"
+	@echo "... DanieTestMain.o"
+	@echo "... DanieTestMain.i"
+	@echo "... DanieTestMain.s"
 	@echo "... src/Critters/Critter.o"
 	@echo "... src/Critters/Critter.i"
 	@echo "... src/Critters/Critter.s"
+	@echo "... src/Critters/critterGrunt.o"
+	@echo "... src/Critters/critterGrunt.i"
+	@echo "... src/Critters/critterGrunt.s"
 	@echo "... src/Fleet/Fleet.o"
 	@echo "... src/Fleet/Fleet.i"
 	@echo "... src/Fleet/Fleet.s"
@@ -1089,6 +1176,9 @@ help:
 	@echo "... src/Planets/Route.o"
 	@echo "... src/Planets/Route.i"
 	@echo "... src/Planets/Route.s"
+	@echo "... src/Planets/homePlanet.o"
+	@echo "... src/Planets/homePlanet.i"
+	@echo "... src/Planets/homePlanet.s"
 	@echo "... src/SpaceShips/Battleship.o"
 	@echo "... src/SpaceShips/Battleship.i"
 	@echo "... src/SpaceShips/Battleship.s"

@@ -9,7 +9,7 @@ private:
 public:
     Battleship(/* args */);
     ~Battleship();
-    ///getters
+  /*  ///getters
     int getDisplacement();
     int getPower();
     int getThrust();
@@ -24,7 +24,7 @@ public:
     void setMax_speed(int);
     void setStall_speed(int);
     void setCandP_Capacity(int);
-    void setEnergy(int);
+    void setEnergy(int); */
     ///Other functions
     void DepleteEnergy(int);
     ///Decorator function

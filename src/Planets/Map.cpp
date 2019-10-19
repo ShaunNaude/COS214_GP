@@ -13,3 +13,9 @@ void Map::addPlanet(Planet * p) {
     planetList.push_back(p);
 
 }
+
+void Map::addRoute(Route *r) {
+
+    routesPlanets.push_back(r);
+
+}

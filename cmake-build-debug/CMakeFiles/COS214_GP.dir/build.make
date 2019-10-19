@@ -499,6 +499,45 @@ CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/TransporterBlueprint.cpp" -o CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.s
 
+CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o: CMakeFiles/COS214_GP.dir/flags.make
+CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o: ../src/Critters/critterGrunt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o -c "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/critterGrunt.cpp"
+
+CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/critterGrunt.cpp" > CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.i
+
+CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Critters/critterGrunt.cpp" -o CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.s
+
+CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o: CMakeFiles/COS214_GP.dir/flags.make
+CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o: ../DanieTestMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o -c "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/DanieTestMain.cpp"
+
+CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/DanieTestMain.cpp" > CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.i
+
+CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/DanieTestMain.cpp" -o CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.s
+
+CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o: CMakeFiles/COS214_GP.dir/flags.make
+CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o: ../src/Planets/homePlanet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o -c "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.cpp"
+
+CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.cpp" > CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.i
+
+CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.cpp" -o CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.s
+
 # Object files for target COS214_GP
 COS214_GP_OBJECTS = \
 "CMakeFiles/COS214_GP.dir/src/Critters/Critter.cpp.o" \
@@ -534,7 +573,10 @@ COS214_GP_OBJECTS = \
 "CMakeFiles/COS214_GP.dir/src/SpaceShips/Spaceships.cpp.o" \
 "CMakeFiles/COS214_GP.dir/src/SpaceShips/SpaceStation.cpp.o" \
 "CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o" \
-"CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o"
+"CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o" \
+"CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o" \
+"CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o" \
+"CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o"
 
 # External object files for target COS214_GP
 COS214_GP_EXTERNAL_OBJECTS =
@@ -573,9 +615,12 @@ COS214_GP: CMakeFiles/COS214_GP.dir/src/SpaceShips/Spaceships.cpp.o
 COS214_GP: CMakeFiles/COS214_GP.dir/src/SpaceShips/SpaceStation.cpp.o
 COS214_GP: CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o
 COS214_GP: CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o
+COS214_GP: CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o
+COS214_GP: CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o
+COS214_GP: CMakeFiles/COS214_GP.dir/src/Planets/homePlanet.cpp.o
 COS214_GP: CMakeFiles/COS214_GP.dir/build.make
 COS214_GP: CMakeFiles/COS214_GP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable COS214_GP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable COS214_GP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/COS214_GP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

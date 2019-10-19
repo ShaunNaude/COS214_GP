@@ -5,9 +5,11 @@
 #ifndef COS214_GP_PLANET_H
 #define COS214_GP_PLANET_H
 
+#include <vector>
 #include <string>
-#include <SpaceShips/Spaceships.h>
-#include "Route.h"
+class Spaceships;
+class Route;
+class Critter;
 
 using namespace std;
 
@@ -15,24 +17,20 @@ class Planet {
 private:
 
     string planetName;
-    string status;
     int relationship;
-
-private:
-
-    vector<Route*> neighbourPlanets;
-    vector<Spaceships*> friendlyShips;
     int resources;
+
+    vector<Critter*> crittersPlanet;
+    vector<Spaceships*> friendlyShips;
+
+protected:
+
     bool discovered;
     bool habitable;
-
-
-
+    string status;
 public:
 
     Planet(string name , int resources);
-    void addNeighbour(Route* r);
-    vector<Route*> getNeighbours();
     void addFriendlyShip(Spaceships* s);
     void removeFriendlyShip(Spaceships* s);
     void calculateRelationship();
@@ -45,10 +43,12 @@ public:
     void setHabitable(bool habitable);
     bool isDiscovered() const;
     void setDiscovered(bool discovered);
-    const string &getPlanetName() const;
+    string getPlanetName();
     const string &getStatus() const;
     void setStatus(const string &status);
     int getRelationship() const;
+    const vector<Critter *> &getCrittersPlanet() const;
+
 
 
 

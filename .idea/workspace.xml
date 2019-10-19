@@ -12,15 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d623238e-978e-4a7f-994d-103bc6521817" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/Critters/Critter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Critters/Critter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DanieTestMain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Planets/homePlanet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Planets/homePlanet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -29,9 +29,26 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/COS214_GP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COS214_GP.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Fleet/Fleet.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Fleet/Fleet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Critters/Critter.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Critters/Critter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Planets/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Planets/Map.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Planets/Planet.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Planets/Planet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/Battleship.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/Battleship.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/Exploration_vessel.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/Exploration_vessel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/Fighter.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/Fighter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/Frigate.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/Frigate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/SpaceStation.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/SpaceStation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/Spaceships.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/Spaceships.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SpaceShips/Transporter.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/SpaceShips/Transporter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Critters/Critter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Critters/Critter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Planets/Map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/Map.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Planets/Planet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/Planet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/Exploration_vessel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/Exploration_vessel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/Fighter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/Fighter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/Frigate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/Frigate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/SpaceStation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/SpaceStation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/Spaceships.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/Spaceships.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/Transporter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/Transporter.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +67,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Planets" />
+      <recent name="$PROJECT_DIR$/src/Critters" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571495616994</updated>
-      <workItem from="1571495618329" duration="66000" />
+      <workItem from="1571495618329" duration="6187000" />
     </task>
     <servers />
   </component>

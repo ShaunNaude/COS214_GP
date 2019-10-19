@@ -7,6 +7,15 @@
 
 
 class Critter {
+private:
+    int humanToleranceLevel;
+public:
+    Critter();
+
+    int getHumanToleranceLevel() const;
+
+    void setHumanToleranceLevel(int humanToleranceLevel);
+
 
 };
 

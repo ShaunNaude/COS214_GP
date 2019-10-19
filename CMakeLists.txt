@@ -88,4 +88,4 @@ add_executable(COS214_GP
         src/SpaceShips/Spaceships.cpp
         src/SpaceShips/SpaceStation.cpp
         src/SpaceShips/Transporter.cpp
-        src/SpaceShips/TransporterBlueprint.cpp)
+        src/SpaceShips/TransporterBlueprint.cpp src/Critters/critterGrunt.cpp include/Critters/critterGrunt.h DanieTestMain.cpp src/Planets/homePlanet.cpp include/Planets/homePlanet.h)

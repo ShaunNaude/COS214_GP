@@ -10,7 +10,7 @@ private:
 public:
     Exploration_vessel(/* args */);
     ~Exploration_vessel();
-    ///getters
+  /*  ///getters
     int getDisplacement();
     int getPower();
     int getThrust();
@@ -27,7 +27,7 @@ public:
     void setCandP_Capacity(int);
     void setEnergy(int);
     ///Other functions
-    void DepleteEnergy(int);
+    void DepleteEnergy(int);*/
     ///Decorator function
     void printComponent();
 };
