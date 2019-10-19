@@ -1,0 +1,81 @@
+cmake_minimum_required(VERSION 3.14)
+project(COS214_GP)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(include)
+include_directories(include/ManningTheSpaceships)
+include_directories(include/SpaceShips)
+
+add_executable(COS214_GP
+        include/ManningTheSpaceships/Captain.h
+        include/ManningTheSpaceships/CaptainCreator.h
+        include/ManningTheSpaceships/ChiefEngineer.h
+        include/ManningTheSpaceships/ChiefEngineerCreator.h
+        include/ManningTheSpaceships/ComanderOfFleetCreator.h
+        include/ManningTheSpaceships/Comms.h
+        include/ManningTheSpaceships/CommsCreator.h
+        include/ManningTheSpaceships/Doctor.h
+        include/ManningTheSpaceships/DoctorCreator.h
+        include/ManningTheSpaceships/EngineerCreator.h
+        include/ManningTheSpaceships/Engineers.h
+        include/ManningTheSpaceships/Fighter_human.h
+        include/ManningTheSpaceships/FighterCreator.h
+        include/ManningTheSpaceships/FleetComander.h
+        include/ManningTheSpaceships/Navigator.h
+        include/ManningTheSpaceships/NavigatorCreator.h
+        include/ManningTheSpaceships/ParsonCreator.h
+        include/ManningTheSpaceships/Person.h
+        include/ManningTheSpaceships/ShipPassangersMemento.h
+        include/SpaceShips/Battleship.h
+        include/SpaceShips/BattleshipBlueprint.h
+        include/SpaceShips/BoringBridge.h
+        include/SpaceShips/BoringSickBay.h
+        include/SpaceShips/BoringSleepQuarters.h
+        include/SpaceShips/Captain.h
+        include/SpaceShips/CaptainCreator.h
+        include/SpaceShips/ChiefEngineer.h
+        include/SpaceShips/ChiefEngineerCreator.h
+        include/SpaceShips/ComanderOfFleetCreator.h
+        include/SpaceShips/Comms.h
+        include/SpaceShips/CommsCreator.h
+        include/SpaceShips/decorator.h
+        include/SpaceShips/Doctor.h
+        include/SpaceShips/DoctorCreator.h
+        include/SpaceShips/EngineerCreator.h
+        include/SpaceShips/Engineers.h
+        include/SpaceShips/Exploration_vessel.h
+        include/SpaceShips/Exploration_vesselBlueprint.h
+        include/SpaceShips/FancyBridge.h
+        include/SpaceShips/FancySickbay.h
+        include/SpaceShips/FancySleepQuarters.h
+        include/SpaceShips/Fighter.h
+        include/SpaceShips/FighterBlueprint.h
+        include/SpaceShips/Frigate.h
+        include/SpaceShips/FrigateBlueprint.h
+        include/SpaceShips/SpaceshipBlueprints.h
+        include/SpaceShips/Spaceships.h
+        include/SpaceShips/SpaceStation.h
+        include/SpaceShips/Transporter.h
+        include/SpaceShips/TransporterBlueprint.h
+        src/SpaceShips/Battleship.cpp
+        src/SpaceShips/BattleshipBlueprint.cpp
+        src/SpaceShips/BoringBridge.cpp
+        src/SpaceShips/BoringSickBay.cpp
+        src/SpaceShips/BoringSleepQuarters.cpp
+        src/SpaceShips/decorator.cpp
+        src/SpaceShips/Exploration_vessel.cpp
+        src/SpaceShips/Exploration_vesselBlueprint.cpp
+        src/SpaceShips/FancyBridge.cpp
+        src/SpaceShips/FancySickbay.cpp
+        src/SpaceShips/FancySleepQuarters.cpp
+        src/SpaceShips/Fighter.cpp
+        src/SpaceShips/FighterBlueprint.cpp
+        src/SpaceShips/Frigate.cpp
+        src/SpaceShips/FrigateBlueprint.cpp
+        src/SpaceShips/main.cpp
+        src/SpaceShips/SpaceshipBlueprints.cpp
+        src/SpaceShips/Spaceships.cpp
+        src/SpaceShips/SpaceStation.cpp
+        src/SpaceShips/Transporter.cpp
+        src/SpaceShips/TransporterBlueprint.cpp)
