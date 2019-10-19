@@ -10,7 +10,7 @@ private:
 public:
     combatCrew(/* args */);
     ~combatCrew();
-    int getCrewWellBeing();
+    int getAVGCrewWellBeing();
      
 };
 

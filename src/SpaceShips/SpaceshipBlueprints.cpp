@@ -12,5 +12,5 @@ SpaceshipBlueprints::~SpaceshipBlueprints()
 }
 
 Spaceships* SpaceshipBlueprints::createSpaceship(){
-    
+    return nullptr;
 }

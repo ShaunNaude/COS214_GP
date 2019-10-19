@@ -1,4 +1,4 @@
-#include "chiefEngineer.h"
+#include "ManningTheSpaceships/chiefEngineer.h"
 
 
 chiefEngineer::chiefEngineer(/* args */) {

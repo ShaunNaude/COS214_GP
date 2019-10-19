@@ -1,4 +1,4 @@
-#include "regularCrew.h"
+#include "ManningTheSpaceships/regularCrew.h"
 
 
 regularCrew::regularCrew(/* args */) {
@@ -26,7 +26,7 @@ int regularCrew::getAVGCrewWellBeing() {
         it++;
     }
 
-    AvgWellBeing = AvgWellBeing/9;
+    AvgWellBeing = AvgWellBeing/totalcrew;
     return trunc(AvgWellBeing);
 
 

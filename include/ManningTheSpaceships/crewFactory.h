@@ -1,8 +1,9 @@
 #ifndef crewFactory_H
 #define crewFactory_H
-#include "ManningTheSpaceships/Human.h"
-class combatCrew;
-class regularCrew;
+
+#include "ManningTheSpaceships/regularCrew.h"
+#include "ManningTheSpaceships/combatCrew.h"
+
 
 class crewFactory {
 private:
