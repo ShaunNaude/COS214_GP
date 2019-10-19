@@ -1,55 +1,18 @@
-//
-// Created by patric on 9/28/2019.
-//
-
-#ifndef COS214TASK6_3_NAVIGATOR_H
-#define COS214TASK6_3_NAVIGATOR_H
+#ifndef Navigator_H
+#define Navigator_H
+#include "ManningTheSpaceships/Human.h"
 
 
-#include "Person.h"
-
-class Navigator: public Person
-{
+class Navigator : public Human{
 private:
-    string ship;
-    string Name;
-    int WellBeing;
-    string Duty;
-    bool onDuty;
-    bool injured;
+    /* data */
 public:
-
-//Constructor and destructor
-    Navigator(string inShip,string inName,int WellBeing,string Duty,bool onDuty);
+    Navigator(/* args */);
     ~Navigator();
-
-//Get and set Methods
-    //G&S for ship
-    string getShip();
-    void setShip(string iIN);
-
-    //G&S for name
-    string getName();
-    void setName(string iIN);
-
-    //G&S for WellBeing
-    int getWellBeing();
-    void setWellBeing(int iIN);
-
-    //G&S for Duty
-    int getDuty();
-    void setDuty(string iIN);
-
-    //G&S for onDuty
-    bool getonDuty();
-    void setonDuty(bool iIN);
-
-//Actions
-    //General actions
-    void speak();
-
-
+    /*
+    must still add communication stuff
+    */
+    
 };
 
-
-#endif //COS214TASK6_3_NAVIGATOR_H
+#endif
