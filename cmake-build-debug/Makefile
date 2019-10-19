@@ -123,6 +123,87 @@ COS214_GP/fast:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/build
 .PHONY : COS214_GP/fast
 
+src/Planets/Map.o: src/Planets/Map.cpp.o
+
+.PHONY : src/Planets/Map.o
+
+# target to build an object file
+src/Planets/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o
+.PHONY : src/Planets/Map.cpp.o
+
+src/Planets/Map.i: src/Planets/Map.cpp.i
+
+.PHONY : src/Planets/Map.i
+
+# target to preprocess a source file
+src/Planets/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.i
+.PHONY : src/Planets/Map.cpp.i
+
+src/Planets/Map.s: src/Planets/Map.cpp.s
+
+.PHONY : src/Planets/Map.s
+
+# target to generate assembly for a file
+src/Planets/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.s
+.PHONY : src/Planets/Map.cpp.s
+
+src/Planets/Planet.o: src/Planets/Planet.cpp.o
+
+.PHONY : src/Planets/Planet.o
+
+# target to build an object file
+src/Planets/Planet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.o
+.PHONY : src/Planets/Planet.cpp.o
+
+src/Planets/Planet.i: src/Planets/Planet.cpp.i
+
+.PHONY : src/Planets/Planet.i
+
+# target to preprocess a source file
+src/Planets/Planet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.i
+.PHONY : src/Planets/Planet.cpp.i
+
+src/Planets/Planet.s: src/Planets/Planet.cpp.s
+
+.PHONY : src/Planets/Planet.s
+
+# target to generate assembly for a file
+src/Planets/Planet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.s
+.PHONY : src/Planets/Planet.cpp.s
+
+src/Planets/Route.o: src/Planets/Route.cpp.o
+
+.PHONY : src/Planets/Route.o
+
+# target to build an object file
+src/Planets/Route.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.o
+.PHONY : src/Planets/Route.cpp.o
+
+src/Planets/Route.i: src/Planets/Route.cpp.i
+
+.PHONY : src/Planets/Route.i
+
+# target to preprocess a source file
+src/Planets/Route.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.i
+.PHONY : src/Planets/Route.cpp.i
+
+src/Planets/Route.s: src/Planets/Route.cpp.s
+
+.PHONY : src/Planets/Route.s
+
+# target to generate assembly for a file
+src/Planets/Route.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.s
+.PHONY : src/Planets/Route.cpp.s
+
 src/SpaceShips/Battleship.o: src/SpaceShips/Battleship.cpp.o
 
 .PHONY : src/SpaceShips/Battleship.o
@@ -699,6 +780,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COS214_GP"
 	@echo "... edit_cache"
+	@echo "... src/Planets/Map.o"
+	@echo "... src/Planets/Map.i"
+	@echo "... src/Planets/Map.s"
+	@echo "... src/Planets/Planet.o"
+	@echo "... src/Planets/Planet.i"
+	@echo "... src/Planets/Planet.s"
+	@echo "... src/Planets/Route.o"
+	@echo "... src/Planets/Route.i"
+	@echo "... src/Planets/Route.s"
 	@echo "... src/SpaceShips/Battleship.o"
 	@echo "... src/SpaceShips/Battleship.i"
 	@echo "... src/SpaceShips/Battleship.s"

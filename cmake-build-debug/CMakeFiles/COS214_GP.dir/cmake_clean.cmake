@@ -20,6 +20,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/COS214_GP.dir/src/SpaceShips/SpaceStation.cpp.o"
   "CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o"
   "CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o"
+  "CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.o"
+  "CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.o"
+  "CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o"
   "COS214_GP.pdb"
   "COS214_GP"
 )

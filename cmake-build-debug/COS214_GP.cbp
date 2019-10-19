@@ -147,6 +147,15 @@
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/ManningTheSpaceships/ShipPassangersMemento.h">
 			<Option target="COS214_GP"/>
 		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Planets/Map.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Planets/Planet.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Planets/Route.h">
+			<Option target="COS214_GP"/>
+		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/Battleship.h">
 			<Option target="COS214_GP"/>
 		</Unit>
@@ -238,6 +247,15 @@
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/decorator.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planet.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Route.cpp">
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Battleship.cpp">
