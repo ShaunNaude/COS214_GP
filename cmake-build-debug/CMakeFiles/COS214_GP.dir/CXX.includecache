@@ -38,14 +38,100 @@ Planet.h
 Planet.h
 ../include/Planets/Planet.h
 
+../include/SpaceShips/Battleship.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+
+../include/SpaceShips/BattleshipBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
+../include/SpaceShips/BoringBridge.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/BoringSickBay.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/BoringSleepQuarters.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/Exploration_vessel.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+
+../include/SpaceShips/Exploration_vesselBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
+../include/SpaceShips/FancyBridge.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/FancySickbay.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/FancySleepQuarters.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/Fighter.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+
+../include/SpaceShips/FighterBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
+../include/SpaceShips/Frigate.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+
+../include/SpaceShips/FrigateBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
 ../include/SpaceShips/SpaceStation.h
 Spaceships.h
 ../include/SpaceShips/Spaceships.h
 vector
 -
 
+../include/SpaceShips/SpaceshipBlueprints.h
+Battleship.h
+../include/SpaceShips/Battleship.h
+Exploration_vessel.h
+../include/SpaceShips/Exploration_vessel.h
+Fighter.h
+../include/SpaceShips/Fighter.h
+Frigate.h
+../include/SpaceShips/Frigate.h
+Transporter.h
+../include/SpaceShips/Transporter.h
+iostream
+-
+string
+-
+
 ../include/SpaceShips/Spaceships.h
 string
+-
+
+../include/SpaceShips/Transporter.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+
+../include/SpaceShips/TransporterBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
+../include/SpaceShips/decorator.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+iostream
 -
 
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp
@@ -75,4 +161,86 @@ Planets/Route.h
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.cpp
 homePlanet.h
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Battleship.cpp
+SpaceShips/Battleship.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Battleship.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/BattleshipBlueprint.cpp
+SpaceShips/BattleshipBlueprint.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/BattleshipBlueprint.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/BoringBridge.cpp
+SpaceShips/BoringBridge.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/BoringBridge.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/BoringSickBay.cpp
+SpaceShips/BoringSickBay.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/BoringSickBay.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/BoringSleepQuarters.cpp
+SpaceShips/BoringSleepQuarters.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/BoringSleepQuarters.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Exploration_vessel.cpp
+SpaceShips/Exploration_vessel.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Exploration_vessel.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Exploration_vesselBlueprint.cpp
+SpaceShips/Exploration_vesselBlueprint.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Exploration_vesselBlueprint.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/FancyBridge.cpp
+SpaceShips/FancyBridge.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/FancyBridge.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/FancySickbay.cpp
+SpaceShips/FancySickbay.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/FancySickbay.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/FancySleepQuarters.cpp
+SpaceShips/FancySleepQuarters.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/FancySleepQuarters.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Fighter.cpp
+SpaceShips/Fighter.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Fighter.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/FighterBlueprint.cpp
+SpaceShips/FighterBlueprint.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/FighterBlueprint.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Frigate.cpp
+SpaceShips/Frigate.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Frigate.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/FrigateBlueprint.cpp
+SpaceShips/FrigateBlueprint.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/FrigateBlueprint.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceStation.cpp
+SpaceShips/SpaceStation.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/SpaceStation.h
+iostream
+-
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceshipBlueprints.cpp
+SpaceShips/SpaceshipBlueprints.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/SpaceshipBlueprints.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Spaceships.cpp
+SpaceShips/Spaceships.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Spaceships.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Transporter.cpp
+SpaceShips/Transporter.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Transporter.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/TransporterBlueprint.cpp
+SpaceShips/TransporterBlueprint.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/TransporterBlueprint.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/decorator.cpp
+SpaceShips/decorator.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/decorator.h
 
