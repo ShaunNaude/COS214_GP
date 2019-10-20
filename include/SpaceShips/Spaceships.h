@@ -15,10 +15,6 @@ private:
     int CandP_Capacity;
     int Energy;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7d94defb2c89ba540ca4a7bf1d4a0d0859859a15
     //string bridge;
     //string sick_bay;
     //string sleeping_quarters;
