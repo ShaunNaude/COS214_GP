@@ -1,6 +1,7 @@
 #include "SpaceShips/Spaceships.h"
 Spaceships::Spaceships(/* args */)
 {
+    radio->registerShip(this);
 }
 
 Spaceships::~Spaceships()
@@ -73,8 +74,12 @@ void Spaceships::DepleteEnergy(int amountLost) {
 
 
 ///Decorator function
-void printComponent(){}
+//void printComponent(){}
 
+void Spaceships::setRadio(Radio* r)
+{
+    this->radio = r;
+}
 
 
 /* ///getters
