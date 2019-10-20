@@ -1,8 +1,9 @@
 #ifndef Radio_H
 #define Radio_H
-#include "SpaceShips/Spaceships.h"
 #include <vector>
-
+#include <string>
+#include "SpaceShips/Spaceships.h"
+using namespace std;
 
 
 //this is a mediator

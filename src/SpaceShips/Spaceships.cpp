@@ -1,4 +1,6 @@
 #include "SpaceShips/Spaceships.h"
+#include "CommunicationSystem/Radio.h"
+
 Spaceships::Spaceships(/* args */)
 {
     radio->registerShip(this);

@@ -1,7 +1,7 @@
 #ifndef SPACESHIPS_H
 #define SPACESHIPS_H
 #include <string>
-#include "CommunicationSystem/Radio.h"
+class Radio;
 #include <iostream>
 using namespace std;
 ///This class acts as the abstract class from which all the space ships inherit functionality
