@@ -1,6 +1,8 @@
 #include "SpaceShips/Transporter.h"
 Transporter::Transporter(/* args */)
 {
+    regularCrewFactory* Fact = new regularCrewFactory();
+    transporterCrew = Fact->ProduceRegularCrew();
 }
 
 Transporter::~Transporter()

@@ -69,8 +69,13 @@ void Spaceships::DepleteEnergy(int amountLost) {
 
 }
 
+
+
+
 ///Decorator function
 void printComponent(){}
+
+
 
 /* ///getters
 int getDisplacement(){}

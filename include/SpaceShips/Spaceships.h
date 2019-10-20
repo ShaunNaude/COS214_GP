@@ -2,6 +2,8 @@
 #define SPACESHIPS_H
 #include <string>
 
+
+
 using namespace std;
 ///This class acts as the abstract class from which all the space ships inherit functionality
 class Spaceships
@@ -18,6 +20,9 @@ private:
     //string bridge;
     //string sick_bay;
     //string sleeping_quarters;
+
+    //every ship has a crew
+   
 
     
 public:
@@ -46,9 +51,6 @@ public:
     void DepleteEnergy(int amountLost);
     ///Decorator function
     virtual void printComponent() = 0;
-
-
-
 
   /*  virtual int getDisplacement() = 0;
     virtual int getPower() = 0;

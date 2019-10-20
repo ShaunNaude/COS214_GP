@@ -1,6 +1,8 @@
 #include "SpaceShips/Frigate.h"
 Frigate::Frigate(/* args */)
 {
+    regularCrewFactory* Fact = new regularCrewFactory();
+    frigateCrew = Fact->ProduceRegularCrew();
 }
 
 Frigate::~Frigate()

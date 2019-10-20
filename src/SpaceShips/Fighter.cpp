@@ -5,6 +5,8 @@
  */
 Fighter::Fighter(/* args */)
 {
+    combatCrewFactory* fact = new combatCrewFactory();
+    fighterCrew = fact->ProduceCombatCrew();
 }
 
 Fighter::~Fighter()

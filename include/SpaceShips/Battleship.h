@@ -1,11 +1,14 @@
 #ifndef BATTLESHIP_H
 #define BATTLESHIP_H
 #include "Spaceships.h"
+#include "ManningTheSpaceships/regularCrewFactory.h"
+#include "ManningTheSpaceships/regularCrew.h"
+
 
 class Battleship: public Spaceships
 {
 private:
-    /* data */
+    regularCrew* battleShipCrew;
 public:
     Battleship(/* args */);
     ~Battleship();

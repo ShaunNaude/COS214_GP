@@ -2,6 +2,8 @@
 
 Battleship::Battleship(/* args */)
 {
+    regularCrewFactory* Fact = new regularCrewFactory();
+    battleShipCrew = Fact->ProduceRegularCrew();
 }
 
 Battleship::~Battleship()

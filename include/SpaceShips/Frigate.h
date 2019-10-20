@@ -1,10 +1,12 @@
 #ifndef FRIGATE_H
 #define FRIGATE_H
 #include "Spaceships.h"
+#include "ManningTheSpaceships/regularCrewFactory.h"
+#include "ManningTheSpaceships/regularCrew.h"
 class Frigate:public Spaceships
 {
 private:
-    /* data */
+    regularCrew* frigateCrew;
 public:
     Frigate(/* args */);
     ~Frigate();
