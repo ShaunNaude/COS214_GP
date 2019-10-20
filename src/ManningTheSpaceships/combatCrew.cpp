@@ -12,6 +12,8 @@ combatCrew::combatCrew(/* args */) {
         soldiers.push_back(k);
     }
 
+     
+
 }
 
 combatCrew::~combatCrew() {
@@ -40,7 +42,7 @@ int combatCrew::getAVGCrewWellBeing() {
     while( (it2 != soldiers.end()) )
     {
         AvgWellBeing = AvgWellBeing + (*it2)->getWellBeing();
-        it++;
+        it2++;
     }
 
     AvgWellBeing = AvgWellBeing/totalcrew;

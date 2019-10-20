@@ -2,6 +2,7 @@
 #define SPACESTATION_H
 #include "Spaceships.h"
 #include <vector>
+#include "ManningTheSpaceships/Commander.h"
 using namespace std;
 class SpaceStation: public Spaceships
 {
@@ -10,6 +11,8 @@ private:
 protected:
     string currentThreatLVL;
     vector<Spaceships*> VisitingSpaceships;
+    Commander* commander;
+
 public:
     ///functions
     SpaceStation(/* args */);

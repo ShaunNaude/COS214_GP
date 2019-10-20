@@ -1,15 +1,15 @@
 #include "ManningTheSpaceships/combatCrewFactory.h"
 
 
-comabtCrewFactory::comabtCrewFactory(/* args */) {
+combatCrewFactory::combatCrewFactory(/* args */) : crewFactory() {
     
 }
 
-comabtCrewFactory::~comabtCrewFactory() {
+combatCrewFactory::~combatCrewFactory() {
     
 }
 
-combatCrew* comabtCrewFactory::ProduceCombatCrew() {
+combatCrew* combatCrewFactory::ProduceCombatCrew() {
     combatCrew* X = new combatCrew();
     return X;
 }

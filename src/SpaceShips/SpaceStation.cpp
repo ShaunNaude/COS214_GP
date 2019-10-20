@@ -4,6 +4,7 @@ using namespace std;
 
 SpaceStation::SpaceStation(/* args */)
 {
+    this->commander = new Commander();
 }
 
 SpaceStation::~SpaceStation()

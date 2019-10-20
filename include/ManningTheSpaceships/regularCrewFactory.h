@@ -10,6 +10,7 @@ public:
     regularCrewFactory(/* args */);
     ~regularCrewFactory();
      regularCrew* ProduceRegularCrew();
+     combatCrew* ProduceCombatCrew(){return nullptr;}; //ignore this method
     
 };
 

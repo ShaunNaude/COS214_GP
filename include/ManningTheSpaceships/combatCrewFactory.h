@@ -1,15 +1,16 @@
-#ifndef comabtCrewFactory_H
-#define comabtCrewFactory_H
+#ifndef combatCrewFactory_H
+#define combatCrewFactory_H
 #include "ManningTheSpaceships/crewFactory.h"
 
 
-class comabtCrewFactory : public crewFactory {
+class combatCrewFactory : public crewFactory {
 private:
     /* data */
 public:
-    comabtCrewFactory(/* args */);
-    ~comabtCrewFactory();
+    combatCrewFactory(/* args */);
+    ~combatCrewFactory();
      combatCrew* ProduceCombatCrew();
+     regularCrew* ProduceRegularCrew(){return nullptr;};//ignore this method
     
 };
 
