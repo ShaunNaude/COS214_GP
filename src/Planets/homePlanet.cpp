@@ -10,5 +10,6 @@ homePlanet::homePlanet(const string &name, int resources) : Planet(name, resourc
     habitable = true;
     discovered = true;
     status = "HomePlanet";
+    setRelationship(10);
 
 }

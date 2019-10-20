@@ -19,7 +19,6 @@ add_executable(COS214_GP
         include/ManningTheSpaceships/combatCrew.h
         include/ManningTheSpaceships/combatCrewFactory.h
         include/ManningTheSpaceships/Commander.h
-        include/ManningTheSpaceships/Crew.cpp
         include/ManningTheSpaceships/Crew.h
         include/ManningTheSpaceships/crewFactory.h
         include/ManningTheSpaceships/Doctor.h
@@ -57,14 +56,20 @@ add_executable(COS214_GP
         src/Critters/Critter.cpp
         src/Critters/critterGrunt.cpp
         src/Fleet/Fleet.cpp
+        src/main/DanieTestMain.cpp
         src/ManningTheSpaceships/Captain.cpp
         src/ManningTheSpaceships/chiefEngineer.cpp
+        src/ManningTheSpaceships/combatCrew.cpp
+        src/ManningTheSpaceships/combatCrewFactory.cpp
         src/ManningTheSpaceships/Commander.cpp
+        src/ManningTheSpaceships/Crew.cpp
+        src/ManningTheSpaceships/crewFactory.cpp
         src/ManningTheSpaceships/Doctor.cpp
         src/ManningTheSpaceships/Engineer.cpp
         src/ManningTheSpaceships/Human.cpp
         src/ManningTheSpaceships/Navigator.cpp
         src/ManningTheSpaceships/regularCrew.cpp
+        src/ManningTheSpaceships/regularCrewFactory.cpp
         src/ManningTheSpaceships/Soldier.cpp
         src/Planets/homePlanet.cpp
         src/Planets/Map.cpp
@@ -89,5 +94,4 @@ add_executable(COS214_GP
         src/SpaceShips/Spaceships.cpp
         src/SpaceShips/SpaceStation.cpp
         src/SpaceShips/Transporter.cpp
-        src/SpaceShips/TransporterBlueprint.cpp
-        DanieTestMain.cpp)
+        src/SpaceShips/TransporterBlueprint.cpp)

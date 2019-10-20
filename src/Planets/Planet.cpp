@@ -5,6 +5,7 @@
 #include <vector>
 #include <iostream>
 #include <Critters/Critter.h>
+#include <Critters/critterGrunt.h>
 #include "Planets/Planet.h"
 
 
@@ -17,6 +18,11 @@ Planet::Planet(string name, int resources) {
     planetName = name;
     this->resources = resources;
     discovered = false;
+    status = "Unknown";
+    relationship = 5;
+
+
+
 }
 
 bool Planet::isDiscovered() const {
@@ -67,21 +73,37 @@ void Planet::setStatus(const string &status) {
     Planet::status = status;
 }
 
-int Planet::getRelationship() const {
-    return relationship;
-}
 
 const vector<Critter*> &Planet::getCrittersPlanet() const {
     return crittersPlanet;
 }
 
-void Planet::calculateRelationship() {
-    relationship = 0;
-    for(auto it = crittersPlanet.begin(); it!= crittersPlanet.end();it++){
-        relationship += (*it)->getHumanToleranceLevel();
+
+int Planet::getRelationship()  {
+
+    return relationship;
+}
+
+
+void Planet::addBasicCritters(int num) {
+    Critter* tempCritter;
+    for(int i =0 ; i<num ; i++){
+    tempCritter = new critterGrunt();
+    crittersPlanet.push_back(tempCritter);
     }
+}
 
+int Planet::getThreatLevel() {
 
+    threatLevel = 0;
+    for(auto it = crittersPlanet.begin(); it!= crittersPlanet.end();it++){
+        threatLevel+= (*it)->getHumanToleranceLevel();
+    }
+    return  threatLevel;
+}
+
+void Planet::setRelationship(int num) {
+    relationship = num;
 }
 
 

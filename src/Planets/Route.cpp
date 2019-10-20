@@ -10,6 +10,7 @@ Route::Route(Planet *start, Planet *end, int dist) {
     Planet2 = end;
     distance = dist;
 
+
 }
 
 Planet *Route::getPlanet2() {

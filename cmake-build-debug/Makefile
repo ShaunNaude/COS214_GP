@@ -123,60 +123,6 @@ COS214_GP/fast:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/build
 .PHONY : COS214_GP/fast
 
-DanieTestMain.o: DanieTestMain.cpp.o
-
-.PHONY : DanieTestMain.o
-
-# target to build an object file
-DanieTestMain.cpp.o:
-	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o
-.PHONY : DanieTestMain.cpp.o
-
-DanieTestMain.i: DanieTestMain.cpp.i
-
-.PHONY : DanieTestMain.i
-
-# target to preprocess a source file
-DanieTestMain.cpp.i:
-	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.i
-.PHONY : DanieTestMain.cpp.i
-
-DanieTestMain.s: DanieTestMain.cpp.s
-
-.PHONY : DanieTestMain.s
-
-# target to generate assembly for a file
-DanieTestMain.cpp.s:
-	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.s
-.PHONY : DanieTestMain.cpp.s
-
-include/ManningTheSpaceships/Crew.o: include/ManningTheSpaceships/Crew.cpp.o
-
-.PHONY : include/ManningTheSpaceships/Crew.o
-
-# target to build an object file
-include/ManningTheSpaceships/Crew.cpp.o:
-	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o
-.PHONY : include/ManningTheSpaceships/Crew.cpp.o
-
-include/ManningTheSpaceships/Crew.i: include/ManningTheSpaceships/Crew.cpp.i
-
-.PHONY : include/ManningTheSpaceships/Crew.i
-
-# target to preprocess a source file
-include/ManningTheSpaceships/Crew.cpp.i:
-	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.i
-.PHONY : include/ManningTheSpaceships/Crew.cpp.i
-
-include/ManningTheSpaceships/Crew.s: include/ManningTheSpaceships/Crew.cpp.s
-
-.PHONY : include/ManningTheSpaceships/Crew.s
-
-# target to generate assembly for a file
-include/ManningTheSpaceships/Crew.cpp.s:
-	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.s
-.PHONY : include/ManningTheSpaceships/Crew.cpp.s
-
 src/Critters/Critter.o: src/Critters/Critter.cpp.o
 
 .PHONY : src/Critters/Critter.o
@@ -311,6 +257,33 @@ src/ManningTheSpaceships/Commander.s: src/ManningTheSpaceships/Commander.cpp.s
 src/ManningTheSpaceships/Commander.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Commander.cpp.s
 .PHONY : src/ManningTheSpaceships/Commander.cpp.s
+
+src/ManningTheSpaceships/Crew.o: src/ManningTheSpaceships/Crew.cpp.o
+
+.PHONY : src/ManningTheSpaceships/Crew.o
+
+# target to build an object file
+src/ManningTheSpaceships/Crew.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Crew.cpp.o
+.PHONY : src/ManningTheSpaceships/Crew.cpp.o
+
+src/ManningTheSpaceships/Crew.i: src/ManningTheSpaceships/Crew.cpp.i
+
+.PHONY : src/ManningTheSpaceships/Crew.i
+
+# target to preprocess a source file
+src/ManningTheSpaceships/Crew.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Crew.cpp.i
+.PHONY : src/ManningTheSpaceships/Crew.cpp.i
+
+src/ManningTheSpaceships/Crew.s: src/ManningTheSpaceships/Crew.cpp.s
+
+.PHONY : src/ManningTheSpaceships/Crew.s
+
+# target to generate assembly for a file
+src/ManningTheSpaceships/Crew.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Crew.cpp.s
+.PHONY : src/ManningTheSpaceships/Crew.cpp.s
 
 src/ManningTheSpaceships/Doctor.o: src/ManningTheSpaceships/Doctor.cpp.o
 
@@ -474,6 +447,87 @@ src/ManningTheSpaceships/chiefEngineer.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/chiefEngineer.cpp.s
 .PHONY : src/ManningTheSpaceships/chiefEngineer.cpp.s
 
+src/ManningTheSpaceships/combatCrew.o: src/ManningTheSpaceships/combatCrew.cpp.o
+
+.PHONY : src/ManningTheSpaceships/combatCrew.o
+
+# target to build an object file
+src/ManningTheSpaceships/combatCrew.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrew.cpp.o
+.PHONY : src/ManningTheSpaceships/combatCrew.cpp.o
+
+src/ManningTheSpaceships/combatCrew.i: src/ManningTheSpaceships/combatCrew.cpp.i
+
+.PHONY : src/ManningTheSpaceships/combatCrew.i
+
+# target to preprocess a source file
+src/ManningTheSpaceships/combatCrew.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrew.cpp.i
+.PHONY : src/ManningTheSpaceships/combatCrew.cpp.i
+
+src/ManningTheSpaceships/combatCrew.s: src/ManningTheSpaceships/combatCrew.cpp.s
+
+.PHONY : src/ManningTheSpaceships/combatCrew.s
+
+# target to generate assembly for a file
+src/ManningTheSpaceships/combatCrew.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrew.cpp.s
+.PHONY : src/ManningTheSpaceships/combatCrew.cpp.s
+
+src/ManningTheSpaceships/combatCrewFactory.o: src/ManningTheSpaceships/combatCrewFactory.cpp.o
+
+.PHONY : src/ManningTheSpaceships/combatCrewFactory.o
+
+# target to build an object file
+src/ManningTheSpaceships/combatCrewFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrewFactory.cpp.o
+.PHONY : src/ManningTheSpaceships/combatCrewFactory.cpp.o
+
+src/ManningTheSpaceships/combatCrewFactory.i: src/ManningTheSpaceships/combatCrewFactory.cpp.i
+
+.PHONY : src/ManningTheSpaceships/combatCrewFactory.i
+
+# target to preprocess a source file
+src/ManningTheSpaceships/combatCrewFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrewFactory.cpp.i
+.PHONY : src/ManningTheSpaceships/combatCrewFactory.cpp.i
+
+src/ManningTheSpaceships/combatCrewFactory.s: src/ManningTheSpaceships/combatCrewFactory.cpp.s
+
+.PHONY : src/ManningTheSpaceships/combatCrewFactory.s
+
+# target to generate assembly for a file
+src/ManningTheSpaceships/combatCrewFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrewFactory.cpp.s
+.PHONY : src/ManningTheSpaceships/combatCrewFactory.cpp.s
+
+src/ManningTheSpaceships/crewFactory.o: src/ManningTheSpaceships/crewFactory.cpp.o
+
+.PHONY : src/ManningTheSpaceships/crewFactory.o
+
+# target to build an object file
+src/ManningTheSpaceships/crewFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/crewFactory.cpp.o
+.PHONY : src/ManningTheSpaceships/crewFactory.cpp.o
+
+src/ManningTheSpaceships/crewFactory.i: src/ManningTheSpaceships/crewFactory.cpp.i
+
+.PHONY : src/ManningTheSpaceships/crewFactory.i
+
+# target to preprocess a source file
+src/ManningTheSpaceships/crewFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/crewFactory.cpp.i
+.PHONY : src/ManningTheSpaceships/crewFactory.cpp.i
+
+src/ManningTheSpaceships/crewFactory.s: src/ManningTheSpaceships/crewFactory.cpp.s
+
+.PHONY : src/ManningTheSpaceships/crewFactory.s
+
+# target to generate assembly for a file
+src/ManningTheSpaceships/crewFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/crewFactory.cpp.s
+.PHONY : src/ManningTheSpaceships/crewFactory.cpp.s
+
 src/ManningTheSpaceships/regularCrew.o: src/ManningTheSpaceships/regularCrew.cpp.o
 
 .PHONY : src/ManningTheSpaceships/regularCrew.o
@@ -500,6 +554,33 @@ src/ManningTheSpaceships/regularCrew.s: src/ManningTheSpaceships/regularCrew.cpp
 src/ManningTheSpaceships/regularCrew.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.s
 .PHONY : src/ManningTheSpaceships/regularCrew.cpp.s
+
+src/ManningTheSpaceships/regularCrewFactory.o: src/ManningTheSpaceships/regularCrewFactory.cpp.o
+
+.PHONY : src/ManningTheSpaceships/regularCrewFactory.o
+
+# target to build an object file
+src/ManningTheSpaceships/regularCrewFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrewFactory.cpp.o
+.PHONY : src/ManningTheSpaceships/regularCrewFactory.cpp.o
+
+src/ManningTheSpaceships/regularCrewFactory.i: src/ManningTheSpaceships/regularCrewFactory.cpp.i
+
+.PHONY : src/ManningTheSpaceships/regularCrewFactory.i
+
+# target to preprocess a source file
+src/ManningTheSpaceships/regularCrewFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrewFactory.cpp.i
+.PHONY : src/ManningTheSpaceships/regularCrewFactory.cpp.i
+
+src/ManningTheSpaceships/regularCrewFactory.s: src/ManningTheSpaceships/regularCrewFactory.cpp.s
+
+.PHONY : src/ManningTheSpaceships/regularCrewFactory.s
+
+# target to generate assembly for a file
+src/ManningTheSpaceships/regularCrewFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrewFactory.cpp.s
+.PHONY : src/ManningTheSpaceships/regularCrewFactory.cpp.s
 
 src/Planets/Map.o: src/Planets/Map.cpp.o
 
@@ -1149,6 +1230,33 @@ src/SpaceShips/decorator.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.s
 .PHONY : src/SpaceShips/decorator.cpp.s
 
+src/main/DanieTestMain.o: src/main/DanieTestMain.cpp.o
+
+.PHONY : src/main/DanieTestMain.o
+
+# target to build an object file
+src/main/DanieTestMain.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o
+.PHONY : src/main/DanieTestMain.cpp.o
+
+src/main/DanieTestMain.i: src/main/DanieTestMain.cpp.i
+
+.PHONY : src/main/DanieTestMain.i
+
+# target to preprocess a source file
+src/main/DanieTestMain.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.i
+.PHONY : src/main/DanieTestMain.cpp.i
+
+src/main/DanieTestMain.s: src/main/DanieTestMain.cpp.s
+
+.PHONY : src/main/DanieTestMain.s
+
+# target to generate assembly for a file
+src/main/DanieTestMain.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.s
+.PHONY : src/main/DanieTestMain.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1158,12 +1266,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COS214_GP"
 	@echo "... edit_cache"
-	@echo "... DanieTestMain.o"
-	@echo "... DanieTestMain.i"
-	@echo "... DanieTestMain.s"
-	@echo "... include/ManningTheSpaceships/Crew.o"
-	@echo "... include/ManningTheSpaceships/Crew.i"
-	@echo "... include/ManningTheSpaceships/Crew.s"
 	@echo "... src/Critters/Critter.o"
 	@echo "... src/Critters/Critter.i"
 	@echo "... src/Critters/Critter.s"
@@ -1179,6 +1281,9 @@ help:
 	@echo "... src/ManningTheSpaceships/Commander.o"
 	@echo "... src/ManningTheSpaceships/Commander.i"
 	@echo "... src/ManningTheSpaceships/Commander.s"
+	@echo "... src/ManningTheSpaceships/Crew.o"
+	@echo "... src/ManningTheSpaceships/Crew.i"
+	@echo "... src/ManningTheSpaceships/Crew.s"
 	@echo "... src/ManningTheSpaceships/Doctor.o"
 	@echo "... src/ManningTheSpaceships/Doctor.i"
 	@echo "... src/ManningTheSpaceships/Doctor.s"
@@ -1197,9 +1302,21 @@ help:
 	@echo "... src/ManningTheSpaceships/chiefEngineer.o"
 	@echo "... src/ManningTheSpaceships/chiefEngineer.i"
 	@echo "... src/ManningTheSpaceships/chiefEngineer.s"
+	@echo "... src/ManningTheSpaceships/combatCrew.o"
+	@echo "... src/ManningTheSpaceships/combatCrew.i"
+	@echo "... src/ManningTheSpaceships/combatCrew.s"
+	@echo "... src/ManningTheSpaceships/combatCrewFactory.o"
+	@echo "... src/ManningTheSpaceships/combatCrewFactory.i"
+	@echo "... src/ManningTheSpaceships/combatCrewFactory.s"
+	@echo "... src/ManningTheSpaceships/crewFactory.o"
+	@echo "... src/ManningTheSpaceships/crewFactory.i"
+	@echo "... src/ManningTheSpaceships/crewFactory.s"
 	@echo "... src/ManningTheSpaceships/regularCrew.o"
 	@echo "... src/ManningTheSpaceships/regularCrew.i"
 	@echo "... src/ManningTheSpaceships/regularCrew.s"
+	@echo "... src/ManningTheSpaceships/regularCrewFactory.o"
+	@echo "... src/ManningTheSpaceships/regularCrewFactory.i"
+	@echo "... src/ManningTheSpaceships/regularCrewFactory.s"
 	@echo "... src/Planets/Map.o"
 	@echo "... src/Planets/Map.i"
 	@echo "... src/Planets/Map.s"
@@ -1272,6 +1389,9 @@ help:
 	@echo "... src/SpaceShips/decorator.o"
 	@echo "... src/SpaceShips/decorator.i"
 	@echo "... src/SpaceShips/decorator.s"
+	@echo "... src/main/DanieTestMain.o"
+	@echo "... src/main/DanieTestMain.i"
+	@echo "... src/main/DanieTestMain.s"
 .PHONY : help
 
 

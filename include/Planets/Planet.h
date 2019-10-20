@@ -19,6 +19,7 @@ private:
     string planetName;
     int relationship;
     int resources;
+    int threatLevel;
 
     vector<Critter*> crittersPlanet;
     vector<Spaceships*> friendlyShips;
@@ -33,7 +34,6 @@ public:
     Planet(string name , int resources);
     void addFriendlyShip(Spaceships* s);
     void removeFriendlyShip(Spaceships* s);
-    void calculateRelationship();
     ////////////////////////////////////////
     ///// getters & setters
     ////////////////////////////////////////
@@ -46,9 +46,11 @@ public:
     string getPlanetName();
     const string &getStatus() const;
     void setStatus(const string &status);
-    int getRelationship() const;
+    void setRelationship(int num);
+    int getRelationship();
     const vector<Critter *> &getCrittersPlanet() const;
-
+    void addBasicCritters(int num);
+    int getThreatLevel();
 
 
 

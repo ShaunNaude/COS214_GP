@@ -8,22 +8,123 @@
 #include "ManningTheSpaceships/combatCrewFactory.h"
 #include "ManningTheSpaceships/combatCrew.h"
 #include <iostream>
+#include <Fleet/Fleet.h>
 
 using namespace std;
 int main(){
         //testing crew factory
     //==================================
-        crewFactory* Fact1 = new regularCrewFactory(); //regular crew does not have soldiers
-        regularCrew* Regcrew = Fact1->ProduceRegularCrew();
-        cout<<"crew Well-being: "<<Regcrew->getAVGCrewWellBeing()<<endl;
+    //    crewFactory* Fact1 = new regularCrewFactory(); //regular crew does not have soldiers
+    //regularCrew* Regcrew = Fact1->ProduceRegularCrew();
+    //    cout<<"crew Well-being: "<<Regcrew->getAVGCrewWellBeing()<<endl;
 
-        Fact1 = new combatCrewFactory(); //combat crew does have soldiers
-        combatCrew* Comcrew = Fact1->ProduceCombatCrew();
-        cout<<"crew Well-being: "<<Comcrew->getAVGCrewWellBeing()<<endl;
+    //    Fact1 = new combatCrewFactory(); //combat crew does have soldiers
+    //    combatCrew* Comcrew = Fact1->ProduceCombatCrew();
+    //    cout<<"crew Well-being: "<<Comcrew->getAVGCrewWellBeing()<<endl;
 
 
     
     //==================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Fleet* ImperialFleet = new Fleet();
+
+    ImperialFleet->listPlanets();
+
+
+    return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 
 }
