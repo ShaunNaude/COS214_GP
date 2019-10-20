@@ -1,6 +1,9 @@
 #include "SpaceShips/Spaceships.h"
+#include "CommunicationSystem/Radio.h"
+
 Spaceships::Spaceships(/* args */)
 {
+    radio->registerShip(this);
 }
 
 Spaceships::~Spaceships()
@@ -73,8 +76,22 @@ void Spaceships::DepleteEnergy(int amountLost) {
 
 
 ///Decorator function
-void printComponent(){}
+//void printComponent(){}
 
+void Spaceships::setRadio(Radio* r)
+{
+    this->radio = r;
+}
+
+void Spaceships::makeAnnouncement()
+{
+
+}
+
+void Spaceships::receiveMsg(string Msg)
+{
+    cout<<"Message received: "<<Msg<<endl;
+}
 
 
 /* ///getters

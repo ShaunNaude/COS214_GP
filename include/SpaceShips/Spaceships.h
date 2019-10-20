@@ -1,9 +1,8 @@
 #ifndef SPACESHIPS_H
 #define SPACESHIPS_H
 #include <string>
-
-
-
+class Radio;
+#include <iostream>
 using namespace std;
 ///This class acts as the abstract class from which all the space ships inherit functionality
 class Spaceships
@@ -17,15 +16,13 @@ private:
     int Stall_speed;
     int CandP_Capacity;
     int Energy;
-
-
     //string bridge;
     //string sick_bay;
     //string sleeping_quarters;
+protected:
+  Radio* radio;
 
 
-
-    
 public:
     string type;
     Spaceships(/* args */);
@@ -43,7 +40,14 @@ public:
     void setDisplacement(int displacement);
     void setPower(int power);
     void setThrust(int thrust);
+//-------------------------------------------------
+    //radio code
+    void setRadio(Radio*);
+    void makeAnnouncement();
+    void receiveMsg(string);
 
+
+//--------------------------------------------------
     void setCandPCapacity(int candPCapacity);
     void setEnergy(int energy);
     void setStallSpeed(int stallSpeed);
