@@ -3,6 +3,7 @@ Transporter::Transporter(/* args */)
 {
     regularCrewFactory* Fact = new regularCrewFactory();
     transporterCrew = Fact->ProduceRegularCrew();
+    type = "Transporter";
 }
 
 Transporter::~Transporter()

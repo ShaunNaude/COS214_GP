@@ -23,6 +23,11 @@ protected:
 public:
 
     Fleet();
+    Map* getMap();
+
+
+
+
 
 
 };

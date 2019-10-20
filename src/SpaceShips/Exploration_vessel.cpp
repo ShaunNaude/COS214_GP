@@ -14,6 +14,7 @@ Exploration_vessel::Exploration_vessel(/* args */)
    setStallSpeed(200);
    setCandPCapacity(5);
    setEnergy(1000);
+   type = "Exploration";
 
 }
 ///Exploration vessel destructor
