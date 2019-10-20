@@ -19,3 +19,11 @@ void Map::addRoute(Route *r) {
     routesPlanets.push_back(r);
 
 }
+
+vector<Route *> Map::getRoutes() {
+    return routesPlanets;
+}
+
+vector<Planet *> Map::getPlanets() {
+    return planetList;
+}

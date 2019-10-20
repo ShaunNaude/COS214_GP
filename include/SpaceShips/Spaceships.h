@@ -17,15 +17,17 @@ private:
     int Stall_speed;
     int CandP_Capacity;
     int Energy;
+
+
     //string bridge;
     //string sick_bay;
     //string sleeping_quarters;
 
-    //every ship has a crew
-   
+
 
     
 public:
+    string type;
     Spaceships(/* args */);
     ~Spaceships();
 

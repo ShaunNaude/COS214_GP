@@ -8,6 +8,7 @@
 
 
 Fleet::Fleet() {
+
     Planet *p1 = new homePlanet("home",1000);
     Planet* p2 = new Planet("yo",2000);
     Planet* p3 = new Planet("yo2",2000);
@@ -18,19 +19,17 @@ Fleet::Fleet() {
     Route * r2 = new Route(p4,p3,10);
     Route * r3 = new Route(p4,p2,10);
 
-    Map * gameMap = new Map();
+    mapFleet = new Map();
 
-    gameMap->addPlanet(p1);
-    gameMap->addPlanet(p2);
-    gameMap->addPlanet(p3);
-    gameMap->addPlanet(p4);
+    mapFleet->addPlanet(p1);
+    mapFleet->addPlanet(p2);
+    mapFleet->addPlanet(p3);
+    mapFleet->addPlanet(p4);
 
-    gameMap->addRoute(r1);
-    gameMap->addRoute(r2);
-    gameMap->addRoute(r3);
-    gameMap->addRoute(r4);
-
-
+    mapFleet->addRoute(r1);
+    mapFleet->addRoute(r2);
+    mapFleet->addRoute(r3);
+    mapFleet->addRoute(r4);
 
 
 
@@ -39,4 +38,10 @@ Fleet::Fleet() {
 
 
 
+
+
+}
+
+Map *Fleet::getMap() {
+    return mapFleet;
 }
