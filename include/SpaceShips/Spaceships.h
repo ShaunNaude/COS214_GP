@@ -1,9 +1,6 @@
 #ifndef SPACESHIPS_H
 #define SPACESHIPS_H
 #include <string>
-
-
-
 using namespace std;
 ///This class acts as the abstract class from which all the space ships inherit functionality
 class Spaceships
@@ -17,6 +14,7 @@ private:
     int Stall_speed;
     int CandP_Capacity;
     int Energy;
+
     //string bridge;
     //string sick_bay;
     //string sleeping_quarters;
