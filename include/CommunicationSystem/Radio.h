@@ -13,7 +13,7 @@ private:
 public:
     Radio(/* args */);
     void registerShip(Spaceships*);
-    void announcement();
+    void announcement(string);
     ~Radio();
 };
 

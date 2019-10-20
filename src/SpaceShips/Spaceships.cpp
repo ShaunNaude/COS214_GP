@@ -81,6 +81,16 @@ void Spaceships::setRadio(Radio* r)
     this->radio = r;
 }
 
+void Spaceships::makeAnnouncement()
+{
+
+}
+
+void Spaceships::receiveMsg(string Msg)
+{
+    cout<<"Message received: "<<Msg<<endl;
+}
+
 
 /* ///getters
 int getDisplacement(){}
