@@ -3,7 +3,7 @@
 
 Spaceships::Spaceships(/* args */)
 {
-    radio->registerShip(this);
+    
 }
 
 Spaceships::~Spaceships()
@@ -83,14 +83,14 @@ void Spaceships::setRadio(Radio* r)
     this->radio = r;
 }
 
-void Spaceships::makeAnnouncement()
+void  Spaceships::sendMsg(string type, string msg)
 {
-
+        
 }
 
 void Spaceships::receiveMsg(string Msg)
 {
-    cout<<"Message received: "<<Msg<<endl;
+    cout<<this->type<<" received Message : "<<Msg<<endl;
 }
 
 

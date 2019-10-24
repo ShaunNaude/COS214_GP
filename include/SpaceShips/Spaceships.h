@@ -25,6 +25,7 @@ protected:
 
 public:
     string type;
+    string ID;
     Spaceships(/* args */);
     ~Spaceships();
 
@@ -43,8 +44,8 @@ public:
 //-------------------------------------------------
     //radio code
     void setRadio(Radio*);
-    void makeAnnouncement();
-    void receiveMsg(string);
+    void sendMsg(string,string);
+   virtual void receiveMsg(string); //the spaceships and spacestation will implement this method in different ways
 
 
 //--------------------------------------------------

@@ -1,9 +1,13 @@
 #include "SpaceShips/Transporter.h"
+int Transporter::count=0;
 Transporter::Transporter(/* args */)
 {
     regularCrewFactory* Fact = new regularCrewFactory();
     transporterCrew = Fact->ProduceRegularCrew();
     type = "Transporter";
+
+    //---- ID for ship---------
+        ID = Transporter::count++;
 }
 
 Transporter::~Transporter()

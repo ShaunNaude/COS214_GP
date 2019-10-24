@@ -1,10 +1,15 @@
 #include "SpaceShips/Battleship.h"
 
+int Battleship::count=0;
+
 Battleship::Battleship(/* args */)
 {
     regularCrewFactory* Fact = new regularCrewFactory();
     battleShipCrew = Fact->ProduceRegularCrew();
     type = "Battleship";
+
+    //---- ID for ship---------
+        ID = Battleship::count++;
 }
 
 Battleship::~Battleship()

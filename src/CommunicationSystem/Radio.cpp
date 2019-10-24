@@ -14,7 +14,7 @@ void Radio::announcement(string str) {
     vector<Spaceships*>::iterator it;
     it = ships.begin();
     
-    while(it != ships.end())
+    while((it != ships.end()) && ( (*it)->type != "SpaceStation"  ))
     {
         (*it)->receiveMsg(str);
         it++;

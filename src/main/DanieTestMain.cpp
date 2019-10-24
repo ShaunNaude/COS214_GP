@@ -19,10 +19,7 @@ int main(){
 
         Fact1 = new combatCrewFactory(); //combat crew does have soldiers
         combatCrew* Comcrew = Fact1->ProduceCombatCrew();
-        cout<<"crew Well-being: "<<Comcrew->getAVGCrewWellBeing()<<endl;
-
-
-    
+        cout<<"crew Well-being: "<<Comcrew->getAVGCrewWellBeing()<<endl;    
     //==================================
     return 0;
 
