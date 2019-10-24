@@ -1,4 +1,5 @@
 #include "ManningTheSpaceships/Crew.h"
+#include <iostream>
 
 
 Crew::Crew(/* args */) {
@@ -37,6 +38,10 @@ Crew::Crew(/* args */) {
 
 Crew::~Crew() {
     
+}
+
+void Crew::takeDamage(){
+    cout<<"ur fucked"<<endl;
 }
 
 

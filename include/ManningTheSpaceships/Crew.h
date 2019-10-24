@@ -24,6 +24,7 @@ public:
     Crew(/* args */); 
     ~Crew();
     virtual int getAVGCrewWellBeing()=0;
+    virtual void takeDamage();
     
 };
 

@@ -11,6 +11,7 @@ public:
     ~combatCrewFactory();
      combatCrew* ProduceCombatCrew();
      regularCrew* ProduceRegularCrew(){return nullptr;};//ignore this method
+     
     
 };
 

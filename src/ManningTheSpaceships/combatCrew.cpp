@@ -48,3 +48,43 @@ int combatCrew::getAVGCrewWellBeing() {
     AvgWellBeing = AvgWellBeing/totalcrew;
     return trunc(AvgWellBeing);
 }
+
+
+void combatCrew::takeDamage()
+{
+    srand(time(0));
+    int damage = (rand() % 25) + 1;
+
+    vector<Engineer*>::iterator it;
+    it = this->Engineers.begin();
+    while( (it != Engineers.end()) )
+    {
+       (*it)->setWellBeing((*it)->getWellBeing() - damage);
+        it++;
+    }
+
+    damage = (rand() % 25) + 1;
+     vector<Soldier*>::iterator it2;
+    it2 = soldiers.begin();
+    while( (it2 != soldiers.end()) )
+    {
+        (*it)->setWellBeing((*it)->getWellBeing() - damage);
+        it2++;
+    }
+
+     damage = (rand() % 25) + 1;
+    this->captain->setWellBeing(captain->getWellBeing() - damage);
+
+     damage = (rand() % 25) + 1;
+    this->doc->setWellBeing(doc->getWellBeing() - damage);
+
+    damage = (rand() % 25) + 1;
+    this->navigator->setWellBeing(navigator->getWellBeing() - damage);
+
+    damage = (rand() % 25) + 1;
+    this->chiefEng->setWellBeing(chiefEng->getWellBeing() - damage);
+
+
+
+
+}

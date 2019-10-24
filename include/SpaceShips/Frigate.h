@@ -16,6 +16,7 @@ public:
     void DepleteEnergy(int);
     ///Decorator function
     void printComponent();
+    void receiveMsg(string);
 };
 
 #endif

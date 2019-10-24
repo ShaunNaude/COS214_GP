@@ -19,6 +19,7 @@ Exploration_vessel::Exploration_vessel(/* args */)
 
    regularCrewFactory* Fact = new regularCrewFactory();
      ExplorationCrew = Fact->ProduceRegularCrew();
+     this->crew = ExplorationCrew;
   
 
     //---- ID for ship---------
@@ -35,4 +36,9 @@ Exploration_vessel::~Exploration_vessel()
 /**this function shows what type of bridge and sleeping quarters are used in the concrete decorator*/
 void Exploration_vessel::printComponent(){
 
+}
+
+void Exploration_vessel::receiveMsg(string msg)
+{
+    cout<<this->type<<"-"<<ID<<" Has received message: "<<msg<<endl;
 }

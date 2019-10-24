@@ -2,7 +2,7 @@
 #define Radio_H
 #include <vector>
 #include <string>
-#include "SpaceShips/Spaceships.h"
+class Spaceships;
 using namespace std;
 
 

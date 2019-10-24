@@ -1,6 +1,7 @@
 //
 // Created by danienel21 on 2019/10/19.
 //
+/*
 #include "ManningTheSpaceships/crewFactory.h"
 #include "ManningTheSpaceships/regularCrewFactory.h"
 #include "ManningTheSpaceships/regularCrew.h"
@@ -51,7 +52,7 @@ int main(){
     return 0;
 }
 
-
+*/
 
 
 

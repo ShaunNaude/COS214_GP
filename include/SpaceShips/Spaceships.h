@@ -1,7 +1,8 @@
 #ifndef SPACESHIPS_H
 #define SPACESHIPS_H
 #include <string>
-class Radio;
+#include "CommunicationSystem/Radio.h"
+#include "ManningTheSpaceships/Crew.h"
 #include <iostream>
 using namespace std;
 ///This class acts as the abstract class from which all the space ships inherit functionality
@@ -19,8 +20,11 @@ private:
     Spaceships* bridge;
     Spaceships* sick_bay;
     Spaceships* sleeping_quarters;
+
+    
 protected:
   Radio* radio;
+  Crew* crew;
 
 
 public:
@@ -62,6 +66,8 @@ public:
     ///Decorator function
     virtual void printComponent() = 0;
     virtual void addr(Spaceships*,Spaceships*,Spaceships*);
+
+    Crew* getCrew();
 
 
 

@@ -4,13 +4,14 @@
 #include "ManningTheSpaceships/Soldier.h"
 
 
-class combatCrew : Crew{
+class combatCrew :  public Crew{
 private:
     vector<Soldier*> soldiers;
 public:
     combatCrew(/* args */);
     ~combatCrew();
     int getAVGCrewWellBeing();
+    void takeDamage();
      
 };
 

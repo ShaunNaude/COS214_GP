@@ -103,12 +103,17 @@ void Spaceships::setRadio(Radio* r)
 
 void  Spaceships::sendMsg(string type, string msg)
 {
-        
+     radio->announcement(msg);   
 }
 
 void Spaceships::receiveMsg(string Msg)
 {
     cout<<this->type<<" received Message : "<<Msg<<endl;
+}
+
+Crew* Spaceships::getCrew()
+{
+    return crew;
 }
 
 
