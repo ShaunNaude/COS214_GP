@@ -17,6 +17,8 @@ private:
     Map* mapFleet;
     vector<Spaceships*> shipsFleet;
     SpaceStation* spaceStation;
+    Planet* currentPlanet;
+    bool totalDomination;
 
 
 protected:
@@ -24,6 +26,15 @@ public:
 
     Fleet();
     Map* getMap();
+
+
+    void listPlanets();
+    void attackPlanet(int index);
+    void tradePlanet(int index);
+    void explorePlanet(int index);
+    void moveFleetToPlanet(int index);
+
+
 
 
 
