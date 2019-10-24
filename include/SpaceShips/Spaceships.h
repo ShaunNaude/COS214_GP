@@ -16,9 +16,9 @@ private:
     int Stall_speed;
     int CandP_Capacity;
     int Energy;
-    //string bridge;
-    //string sick_bay;
-    //string sleeping_quarters;
+    Spaceships* bridge;
+    Spaceships* sick_bay;
+    Spaceships* sleeping_quarters;
 protected:
   Radio* radio;
 
@@ -37,6 +37,9 @@ public:
     int getEnergy() const;
     int getStallSpeed() const;
     int getMaxSpeed() const;
+     Spaceships* getBridge();
+    Spaceships* getSick();
+    Spaceships* getSleep();
     ///setters
     void setDisplacement(int displacement);
     void setPower(int power);
@@ -58,22 +61,9 @@ public:
     void DepleteEnergy(int amountLost);
     ///Decorator function
     virtual void printComponent() = 0;
+    virtual void addr(Spaceships*,Spaceships*,Spaceships*);
 
-  /*  virtual int getDisplacement() = 0;
-    virtual int getPower() = 0;
-    virtual int getThrust() = 0;
-    virtual int getMax_speed() = 0;
-    virtual int getStall_speed() = 0;
-    virtual int getCandP_Capacity() = 0;
-    virtual int getEnergy() = 0;
 
-   virtual void setDisplacement(int) = 0;
-    virtual void setPower(int) = 0;
-    virtual void setThrust(int) = 0;
-    virtual void setMax_speed(int) = 0;
-    virtual void setStall_speed(int) = 0;
-    virtual void setCandP_Capacity(int) = 0;
-    virtual void setEnergy(int) = 0; */
 
 };
 

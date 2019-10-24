@@ -1,7 +1,7 @@
 #ifndef BORINGBRIDGE_H
 #define BORINGBRIDGE_H
 #include "decorator.h"
-class BoringBridge: decorator
+class BoringBridge: public decorator
 {
 private:
     /* data */

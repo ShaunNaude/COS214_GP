@@ -72,6 +72,24 @@ void Spaceships::DepleteEnergy(int amountLost) {
 
 }
 
+void Spaceships::addr(Spaceships* shipBridge,Spaceships* shipSick_bay,Spaceships* shipSleeping_quarters){
+    bridge = shipBridge;
+    sick_bay = shipSick_bay;
+    sleeping_quarters = shipSleeping_quarters;
+}
+
+Spaceships* Spaceships::getBridge(){
+    return bridge;
+}
+
+Spaceships* Spaceships::getSick(){
+    return sick_bay;
+}
+
+Spaceships* Spaceships::getSleep(){
+    return sleeping_quarters;
+}
+
 
 
 
