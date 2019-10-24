@@ -4,6 +4,7 @@ project(COS214_GP)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(include)
+include_directories(include/CommunicationSystem)
 include_directories(include/Critters)
 include_directories(include/Fleet)
 include_directories(include/ManningTheSpaceships)
@@ -11,6 +12,7 @@ include_directories(include/Planets)
 include_directories(include/SpaceShips)
 
 add_executable(COS214_GP
+        include/CommunicationSystem/Radio.h
         include/Critters/Critter.h
         include/Critters/critterGrunt.h
         include/Fleet/Fleet.h
@@ -37,7 +39,6 @@ add_executable(COS214_GP
         include/SpaceShips/BoringBridge.h
         include/SpaceShips/BoringSickBay.h
         include/SpaceShips/BoringSleepQuarters.h
-        include/SpaceShips/CaptainCreator.h
         include/SpaceShips/decorator.h
         include/SpaceShips/Exploration_vessel.h
         include/SpaceShips/Exploration_vesselBlueprint.h
@@ -53,6 +54,7 @@ add_executable(COS214_GP
         include/SpaceShips/SpaceStation.h
         include/SpaceShips/Transporter.h
         include/SpaceShips/TransporterBlueprint.h
+        src/CommunicationSystem/Radio.cpp
         src/Critters/Critter.cpp
         src/Critters/critterGrunt.cpp
         src/Fleet/Fleet.cpp

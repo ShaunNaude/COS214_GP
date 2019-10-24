@@ -29,10 +29,11 @@ public:
 
 
     void listPlanets();
-    void attackPlanet(int index);
-    void tradePlanet(int index);
-    void explorePlanet(int index);
-    void moveFleetToPlanet(int index);
+    bool attackPlanet(int index);
+    bool tradePlanet(int index);
+    bool explorePlanet(int index);
+    bool moveFleetToPlanet(int index);
+
 
 
 

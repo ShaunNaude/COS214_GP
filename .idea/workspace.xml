@@ -11,22 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8805d9-2bd8-4f62-98eb-977a16a9f1cc" name="Default Changelist" comment="">
+    <list default="true" id="96a1b127-1028-4601-9b23-5cb9f4763218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/DanieTestMain.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/include/ManningTheSpaceships/Crew.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/regularCrew.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Map.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Planet.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Planets/Route.cpp.o" afterDir="false" />
@@ -51,6 +50,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
@@ -62,9 +62,7 @@
       <change beforePath="$PROJECT_DIR$/include/Planets/Planet.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Planets/Planet.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Planets/Planet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/Planet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Planets/Route.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/Route.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Planets/homePlanet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/homePlanet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DanieTestMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DanieTestMain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceShips/Spaceships.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceShips/Spaceships.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +77,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1STHRno92kUCovIyyCVU3EtZxqv" />
+  <component name="ProjectId" id="1SemKgJtAzz7N8tjeL8SeO9WfMZ" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -114,13 +112,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d8805d9-2bd8-4f62-98eb-977a16a9f1cc" name="Default Changelist" comment="" />
-      <created>1571580659560</created>
+      <changelist id="96a1b127-1028-4601-9b23-5cb9f4763218" name="Default Changelist" comment="" />
+      <created>1571932372933</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571580659560</updated>
-      <workItem from="1571580660816" duration="2000" />
-      <workItem from="1571580671667" duration="9604000" />
+      <updated>1571932372933</updated>
+      <workItem from="1571932374265" duration="10393000" />
     </task>
     <servers />
   </component>
@@ -132,9 +129,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

@@ -19,6 +19,9 @@ private:
     string planetName;
     int relationship;
     int resources;
+
+
+private:
     int threatLevel;
 
     vector<Critter*> crittersPlanet;
@@ -47,12 +50,15 @@ public:
     const string &getStatus() const;
     void setStatus(const string &status);
     void setRelationship(int num);
+    void incRelationship();
+    void decRelationship();
     int getRelationship();
     const vector<Critter *> &getCrittersPlanet() const;
     void addBasicCritters(int num);
     int getThreatLevel();
-
-
+    void setResources(int resources);
+    void addResources(int resources);
+    void attackPlanet();
 
 };
 

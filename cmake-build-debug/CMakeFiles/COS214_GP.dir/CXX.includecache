@@ -6,177 +6,23 @@
 
 #IncludeRegexTransform: 
 
-../include/Critters/Critter.h
-
-../include/Critters/critterGrunt.h
-Critter.h
-../include/Critters/Critter.h
-
-../include/Fleet/Fleet.h
+../include/CommunicationSystem/Radio.h
+vector
+-
+string
+-
 SpaceShips/Spaceships.h
--
-vector
--
-SpaceShips/SpaceStation.h
--
-Planets/Map.h
--
-
-../include/ManningTheSpaceships/Captain.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/Commander.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/Crew.h
-ManningTheSpaceships/Engineer.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Engineer.h
-ManningTheSpaceships/Doctor.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Doctor.h
-ManningTheSpaceships/chiefEngineer.h
-../include/ManningTheSpaceships/ManningTheSpaceships/chiefEngineer.h
-ManningTheSpaceships/Captain.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Captain.h
-ManningTheSpaceships/Navigator.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Navigator.h
-vector
--
-cmath
--
-
-../include/ManningTheSpaceships/Doctor.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/Engineer.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/Human.h
-string
--
-
-../include/ManningTheSpaceships/Navigator.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/Soldier.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/chiefEngineer.h
-ManningTheSpaceships/Human.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
-
-../include/ManningTheSpaceships/combatCrew.h
-ManningTheSpaceships/Crew.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Crew.h
-ManningTheSpaceships/Soldier.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Soldier.h
-
-../include/ManningTheSpaceships/combatCrewFactory.h
-ManningTheSpaceships/crewFactory.h
-../include/ManningTheSpaceships/ManningTheSpaceships/crewFactory.h
-
-../include/ManningTheSpaceships/crewFactory.h
-ManningTheSpaceships/regularCrew.h
-../include/ManningTheSpaceships/ManningTheSpaceships/regularCrew.h
-ManningTheSpaceships/combatCrew.h
-../include/ManningTheSpaceships/ManningTheSpaceships/combatCrew.h
-
-../include/ManningTheSpaceships/regularCrew.h
-ManningTheSpaceships/Crew.h
-../include/ManningTheSpaceships/ManningTheSpaceships/Crew.h
-
-../include/ManningTheSpaceships/regularCrewFactory.h
-ManningTheSpaceships/crewFactory.h
-../include/ManningTheSpaceships/ManningTheSpaceships/crewFactory.h
-
-../include/Planets/Map.h
-vector
--
-Planet.h
-../include/Planets/Planet.h
-
-../include/Planets/Planet.h
-vector
--
-string
--
-
-../include/Planets/Route.h
-Planet.h
-../include/Planets/Planet.h
-
-../include/Planets/homePlanet.h
-Planet.h
-../include/Planets/Planet.h
-
-../include/SpaceShips/SpaceStation.h
-Spaceships.h
-../include/SpaceShips/Spaceships.h
-vector
--
-ManningTheSpaceships/Commander.h
-../include/SpaceShips/ManningTheSpaceships/Commander.h
+../include/CommunicationSystem/SpaceShips/Spaceships.h
 
 ../include/SpaceShips/Spaceships.h
 string
 -
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp
-Planets/homePlanet.h
--
 iostream
 -
-iomanip
--
-Fleet/Fleet.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet/Fleet.h
-Planets/Route.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Planets/Route.h
 
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Map.cpp
-Planets/Map.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/Map.h
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planet.cpp
-vector
--
-iostream
--
-Critters/Critter.h
--
-Critters/critterGrunt.h
--
-Planets/Planet.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/Planet.h
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Route.cpp
-Planets/Route.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/Route.h
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/homePlanet.cpp
-Planets/homePlanet.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Planets/Planets/homePlanet.h
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/DanieTestMain.cpp
-ManningTheSpaceships/crewFactory.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/crewFactory.h
-ManningTheSpaceships/regularCrewFactory.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/regularCrewFactory.h
-ManningTheSpaceships/regularCrew.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/regularCrew.h
-ManningTheSpaceships/Crew.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/Crew.h
-ManningTheSpaceships/combatCrewFactory.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/combatCrewFactory.h
-ManningTheSpaceships/combatCrew.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/combatCrew.h
-iostream
--
-Fleet/Fleet.h
--
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Spaceships.cpp
+SpaceShips/Spaceships.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Spaceships.h
+CommunicationSystem/Radio.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/CommunicationSystem/Radio.h
 

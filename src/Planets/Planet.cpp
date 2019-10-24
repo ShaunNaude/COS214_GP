@@ -106,4 +106,32 @@ void Planet::setRelationship(int num) {
     relationship = num;
 }
 
+void Planet::setResources(int resources) {
+    Planet::resources = resources;
+}
+
+void Planet::addResources(int resources) {
+
+    Planet::resources += resources;
+
+}
+
+void Planet::incRelationship() {
+
+    Planet::relationship++;
+
+}
+
+void Planet::decRelationship() {
+
+    Planet::relationship--;
+
+}
+
+void Planet::attackPlanet() {
+
+    crittersPlanet.clear();
+
+}
+
 

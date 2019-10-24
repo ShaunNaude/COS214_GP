@@ -123,6 +123,33 @@ COS214_GP/fast:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/build
 .PHONY : COS214_GP/fast
 
+src/CommunicationSystem/Radio.o: src/CommunicationSystem/Radio.cpp.o
+
+.PHONY : src/CommunicationSystem/Radio.o
+
+# target to build an object file
+src/CommunicationSystem/Radio.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/CommunicationSystem/Radio.cpp.o
+.PHONY : src/CommunicationSystem/Radio.cpp.o
+
+src/CommunicationSystem/Radio.i: src/CommunicationSystem/Radio.cpp.i
+
+.PHONY : src/CommunicationSystem/Radio.i
+
+# target to preprocess a source file
+src/CommunicationSystem/Radio.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/CommunicationSystem/Radio.cpp.i
+.PHONY : src/CommunicationSystem/Radio.cpp.i
+
+src/CommunicationSystem/Radio.s: src/CommunicationSystem/Radio.cpp.s
+
+.PHONY : src/CommunicationSystem/Radio.s
+
+# target to generate assembly for a file
+src/CommunicationSystem/Radio.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/CommunicationSystem/Radio.cpp.s
+.PHONY : src/CommunicationSystem/Radio.cpp.s
+
 src/Critters/Critter.o: src/Critters/Critter.cpp.o
 
 .PHONY : src/Critters/Critter.o
@@ -1266,6 +1293,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COS214_GP"
 	@echo "... edit_cache"
+	@echo "... src/CommunicationSystem/Radio.o"
+	@echo "... src/CommunicationSystem/Radio.i"
+	@echo "... src/CommunicationSystem/Radio.s"
 	@echo "... src/Critters/Critter.o"
 	@echo "... src/Critters/Critter.i"
 	@echo "... src/Critters/Critter.s"
