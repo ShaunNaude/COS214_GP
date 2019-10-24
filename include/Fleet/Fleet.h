@@ -33,6 +33,14 @@ public:
     bool tradePlanet(int index);
     bool explorePlanet(int index);
     bool moveFleetToPlanet(int index);
+    void sustain();
+
+// TODO: Finish sustain by making crew take damage
+// TODO: Add more critter classes
+// TODO: Convert Map into command design pattern
+// TODO: Add an iterator design pattern
+// TODO: look for other easy design patterns
+
 
 
 

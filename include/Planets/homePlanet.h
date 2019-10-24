@@ -12,6 +12,7 @@ class homePlanet: public Planet {
 public:
     homePlanet(const string &name, int resources);
 
+
 };
 
 

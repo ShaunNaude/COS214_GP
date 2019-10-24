@@ -6,13 +6,51 @@
 
 #IncludeRegexTransform: 
 
-../include/CommunicationSystem/Radio.h
+../include/Fleet/Fleet.h
+SpaceShips/Spaceships.h
+-
+vector
+-
+SpaceShips/SpaceStation.h
+-
+Planets/Map.h
+-
+
+../include/ManningTheSpaceships/Commander.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Human.h
+string
+-
+
+../include/Planets/Map.h
+vector
+-
+Planet.h
+../include/Planets/Planet.h
+
+../include/Planets/Planet.h
 vector
 -
 string
 -
-SpaceShips/Spaceships.h
-../include/CommunicationSystem/SpaceShips/Spaceships.h
+
+../include/Planets/Route.h
+Planet.h
+../include/Planets/Planet.h
+
+../include/Planets/homePlanet.h
+Planet.h
+../include/Planets/Planet.h
+
+../include/SpaceShips/SpaceStation.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+vector
+-
+ManningTheSpaceships/Commander.h
+../include/SpaceShips/ManningTheSpaceships/Commander.h
 
 ../include/SpaceShips/Spaceships.h
 string
@@ -20,9 +58,15 @@ string
 iostream
 -
 
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/Spaceships.cpp
-SpaceShips/Spaceships.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/SpaceShips/Spaceships.h
-CommunicationSystem/Radio.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/SpaceShips/CommunicationSystem/Radio.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp
+Planets/homePlanet.h
+-
+iostream
+-
+iomanip
+-
+Fleet/Fleet.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet/Fleet.h
+Planets/Route.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Planets/Route.h
 

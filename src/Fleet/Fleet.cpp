@@ -22,6 +22,9 @@ Fleet::Fleet() {
     Route * r3 = new Route(p4,p2,10);
 
 
+
+
+
     p2->addBasicCritters(10);
     p3->addBasicCritters(30);
     p4->addBasicCritters(50);
@@ -180,6 +183,9 @@ bool Fleet::moveFleetToPlanet(int index) {
         cout<<"Planet not discovered cannot move fleet."<<endl;
         return false;
     }
+    if(planetList.at(index)->getRelationship() >= 7){
+        cout<< "The fleet has successfully traveled to planet due to relationship with locals" <<endl;
+    }
 
      if(planetList.at(index)->isHabitable()){
         currentPlanet = planetList.at(index);
@@ -220,4 +226,15 @@ bool Fleet::attackPlanet(int index) {
     }
 
 
+}
+
+void Fleet::sustain() {
+
+    int newEnergy;
+
+    for(auto it = shipsFleet.begin(); it != shipsFleet.end(); it++){
+        newEnergy = (*it)->getEnergy()-10;
+        (*it)->setEnergy(newEnergy);
+        //(*it)->getCrew()
+    }
 }
