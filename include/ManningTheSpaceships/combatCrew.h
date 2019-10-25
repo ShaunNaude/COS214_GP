@@ -17,7 +17,7 @@ private:
     vector<Soldier*> soldiers;
 public:
     ///generic Constructor
-    combatCrew(/* args */);
+    combatCrew();
     ///generic Destructor
     ~combatCrew();
      ///implementation of inherited fucntion
