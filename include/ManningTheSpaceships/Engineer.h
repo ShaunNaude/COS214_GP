@@ -9,6 +9,9 @@ private:
 public:
     Engineer(/* args */);
     ~Engineer();
+
+    int makefuel();
+    
     /*
     must still add functionality
     */

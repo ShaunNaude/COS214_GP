@@ -25,6 +25,7 @@ public:
 //-------Radio methods--------------------
     void receiveMsg(string);
     void makeDailyAnnouncement();
+    void getStatus();
 
 
 //----------------------------------------

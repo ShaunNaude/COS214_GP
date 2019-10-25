@@ -15,6 +15,7 @@ public:
     Radio(/* args */);
     void registerShip(Spaceships*);
     void announcement(string);
+    void getShipReports();
     ~Radio();
 };
 

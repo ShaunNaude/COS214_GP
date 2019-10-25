@@ -64,13 +64,17 @@ int main(){
         Battleships[i]->setRadio(radio);
         Fighterships[i]->setRadio(radio);
 
+        Battleships[i]->setEnergy(0);
+        Fighterships[i]->setEnergy(50);
+
     }
     //==================================
 
         //testing the radio
     //====================================
-        station->makeDailyAnnouncement();
-
+        //station->makeDailyAnnouncement();
+          station->getStatus();
+          station->getStatus();
 
     //====================================
 

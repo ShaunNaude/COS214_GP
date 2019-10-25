@@ -53,7 +53,7 @@ public:
     void setRadio(Radio*);
     void sendMsg(string,string);
    virtual void receiveMsg(string); //the spaceships and spacestation will implement this method in different ways
-
+    
 
 //--------------------------------------------------
     void setCandPCapacity(int candPCapacity);

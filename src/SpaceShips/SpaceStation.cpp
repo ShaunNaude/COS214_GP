@@ -104,9 +104,9 @@ string SpaceStation::Announcements()
  
    }
 
+}
 
-
-
-
-
+void SpaceStation::getStatus()
+{
+    this->radio->getShipReports();
 }

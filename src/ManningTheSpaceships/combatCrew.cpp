@@ -88,3 +88,26 @@ void combatCrew::takeDamage()
 
 
 }
+
+void combatCrew::healAll()
+{
+    this->doc->Heal(chiefEng);
+    this->doc->Heal(navigator);
+    this->doc->Heal(captain);
+    
+     vector<Engineer*>::iterator it;
+    it = this->Engineers.begin();
+    while( (it != Engineers.end()) )
+    {
+        this->doc->Heal(*(it));
+        it++;
+    }
+
+     vector<Soldier*>::iterator it2;
+    it2 = soldiers.begin();
+    while( (it2 != soldiers.end()) )
+    {
+       this->doc->Heal(*(it2));
+        it2++;
+    }
+}

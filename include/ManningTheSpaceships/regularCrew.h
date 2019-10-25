@@ -11,6 +11,7 @@ public:
     ~regularCrew();
     int getAVGCrewWellBeing();
     void takeDamage();
+    void healAll();
      
 };
 

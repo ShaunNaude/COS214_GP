@@ -41,7 +41,24 @@ Crew::~Crew() {
 }
 
 void Crew::takeDamage(){
-    cout<<"ur fucked"<<endl;
+    
+}
+
+int Crew::increaseEnergy()
+{
+    vector<Engineer*>::iterator it;
+    it = this->Engineers.begin();
+    int energy=0;
+    while( (it != Engineers.end()) )
+    {
+        energy = energy + (*it)->makefuel();
+        it++;
+    }
+
+    return energy;
+
+
+
 }
 
 

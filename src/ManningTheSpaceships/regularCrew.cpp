@@ -57,3 +57,21 @@ void regularCrew::takeDamage()
     damage = (rand() % 25) + 1;
     this->chiefEng->setWellBeing(chiefEng->getWellBeing() - damage);
 }
+
+void regularCrew::healAll(){
+
+    this->doc->Heal(chiefEng);
+    this->doc->Heal(navigator);
+    this->doc->Heal(captain);
+    
+     vector<Engineer*>::iterator it;
+    it = this->Engineers.begin();
+    while( (it != Engineers.end()) )
+    {
+        this->doc->Heal(*(it));
+        it++;
+    }
+
+
+
+}

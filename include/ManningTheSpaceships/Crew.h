@@ -25,6 +25,8 @@ public:
     ~Crew();
     virtual int getAVGCrewWellBeing()=0;
     virtual void takeDamage();
+    virtual void healAll()=0;
+    int increaseEnergy();
     
 };
 
