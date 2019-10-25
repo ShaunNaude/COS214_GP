@@ -3,6 +3,7 @@
 
 Spaceships::Spaceships(/* args */)
 {
+    setEnergy(100);
     
 }
 

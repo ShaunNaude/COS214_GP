@@ -22,6 +22,9 @@ Fleet::Fleet() {
     Route * r3 = new Route(p4,p2,10);
 
 
+
+
+
     p2->addBasicCritters(10);
     p3->addBasicCritters(30);
     p4->addBasicCritters(50);
@@ -116,4 +119,122 @@ void Fleet::listPlanets() {
 
 
 
+}
+
+bool Fleet::tradePlanet(int index) {
+
+    vector<Planet*> planetList;
+    Planet* tempPlanet;
+    planetList = mapFleet->getPlanets();
+    tempPlanet = planetList.at(index);
+
+    if(tempPlanet->isDiscovered()){
+        if(resourcesFleet>100){
+            planetList.at(index)->addResources(100);
+            resourcesFleet -= 100;
+            planetList.at(index)->incRelationship();
+            cout<<"Successfully Traded with planet"<<tempPlanet->getPlanetName()<<endl;
+            return true;
+        }else{
+            cout<<"You require additional resources to trade! The locals are enraged with your offer!"<<endl;
+            planetList.at(index)->decRelationship();
+            return true;
+        }
+
+    }else{
+        cout<<tempPlanet->getPlanetName()<< "has not been discovered yet."<<endl;
+        return false;
+    }
+
+
+
+
+}
+
+bool Fleet::explorePlanet(int index) {
+    vector<Planet*> planetList;
+    planetList = mapFleet->getPlanets();
+    if(planetList.at(index)->isDiscovered()){
+        return false;
+    }else{
+        for(auto it = shipsFleet.begin(); it != shipsFleet.end(); it++){
+            if((*it)->type=="Exploration"){
+                planetList.at(index)->addFriendlyShip((*it));
+                shipsFleet.erase(it--);
+                planetList.at(index)->setDiscovered(true);
+                cout<<"Successfully explored"<<endl;
+                return true;
+            }
+        }
+    }
+    cout<<"No idle exploration ships"<< endl;
+    return false;
+
+
+}
+
+bool Fleet::moveFleetToPlanet(int index) {
+    vector<Planet*> planetList;
+    Planet* tempPlanet;
+    planetList = mapFleet->getPlanets();
+    tempPlanet = planetList.at(index);
+
+    if(!tempPlanet->isDiscovered()){
+        cout<<"Planet not discovered cannot move fleet."<<endl;
+        return false;
+    }
+    if(planetList.at(index)->getRelationship() >= 7){
+        cout<< "The fleet has successfully traveled to planet due to relationship with locals" <<endl;
+    }
+
+     if(planetList.at(index)->isHabitable()){
+        currentPlanet = planetList.at(index);
+        cout<<"The fleet has successfully traveled to planet "<<tempPlanet->getPlanetName()<<endl;
+        return true;
+    }else{
+        cout<<tempPlanet->getPlanetName()<<" currently not safe for the fleet to occupy."
+         <<" Please consider moving froward with Total Domination"<<endl;
+        return false;
+    }
+
+}
+
+bool Fleet::attackPlanet(int index) {
+    vector<Planet*> planetList;
+    Planet* tempPlanet;
+    planetList = mapFleet->getPlanets();
+    tempPlanet = planetList.at(index);
+
+    if(!tempPlanet->isDiscovered()){
+        cout<<"Can't attack an undiscovered planet!"<<endl;
+        return false;
+    }
+
+    if(resourcesFleet > tempPlanet->getResources()){
+        if(shipsFleet.size() > tempPlanet->getCrittersPlanet().size()){
+            tempPlanet->attackPlanet();
+                resourcesFleet+= (int)(tempPlanet->getResources()/2);
+                tempPlanet->setResources((int)(tempPlanet->getResources()/2));
+            return true;
+        }else{
+            cout<<"Fleet size to small to attack planet."<<endl;
+            return false;
+        }
+    }else{
+        cout<<"We don't have enough resources to attack this planet."<<endl;
+        return false;
+    }
+
+
+}
+
+void Fleet::sustain() {
+
+    int newEnergy;
+
+    for(auto it = shipsFleet.begin(); it != shipsFleet.end(); it++){
+        newEnergy = (*it)->getEnergy()-10;
+        (*it)->setEnergy(newEnergy);
+        //(*it)->getCrew()
+    }
 }
