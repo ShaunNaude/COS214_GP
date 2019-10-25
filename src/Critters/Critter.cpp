@@ -18,3 +18,8 @@ Critter::Critter() {
     humanToleranceLevel = rand() % 10 + 1;
 
 }
+
+Critter::~Critter()
+{
+    
+}

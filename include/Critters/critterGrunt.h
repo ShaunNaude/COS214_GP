@@ -1,17 +1,17 @@
-//
-// Created by danienel21 on 2019/10/19.
-//
-
 #ifndef COS214_GP_CRITTERGRUNT_H
 #define COS214_GP_CRITTERGRUNT_H
-
-
 #include "Critter.h"
+
+/**
+ * This class is derived from the Critter Base class
+ * */
 
 class critterGrunt: public Critter {
 public:
+    ///generic Constructor
     critterGrunt();
+    ///generic Destructor
+    ~critterGrunt();
 };
 
-
-#endif //COS214_GP_CRITTERGRUNT_H
+#endif
