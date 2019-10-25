@@ -5,8 +5,15 @@
 #include <Planets/homePlanet.h>
 #include <iostream>
 #include <iomanip>
+#include <SpaceShips/FighterBlueprint.h>
+#include <SpaceShips/BattleshipBlueprint.h>
+#include <SpaceShips/BoringBridge.h>
+#include <SpaceShips/BoringSickBay.h>
+#include <SpaceShips/BoringSleepQuarters.h>
+#include <SpaceShips/Exploration_vesselBlueprint.h>
 #include "Fleet/Fleet.h"
 #include "Planets/Route.h"
+#include "Iterator/vectorPlanetsIterator.h"
 
 
 Fleet::Fleet() {
@@ -44,6 +51,47 @@ Fleet::Fleet() {
     currentPlanet = p1;
 
 
+    BattleshipBlueprint* myBattleshipcreator = new BattleshipBlueprint();
+    FighterBlueprint* Fightershipcreator = new FighterBlueprint();
+    Exploration_vesselBlueprint* explorationShipCreator = new Exploration_vesselBlueprint();
+
+    typedef Spaceships* myBattleshipArray ;
+    myBattleshipArray* Battleships = new myBattleshipArray[5];
+
+    typedef Spaceships* myFighterShipArray ;
+    myFighterShipArray* Fighterships = new myFighterShipArray[5];
+
+    typedef Spaceships* myExplorationShipArray;
+    myExplorationShipArray * explorationShips = new myExplorationShipArray[5];
+
+
+    for(int i=0;i<5;i++){
+
+
+        Battleships[i] = myBattleshipcreator->createSpaceship();
+        Battleships[i]->addr(new BoringBridge() ,new BoringSickBay(), new BoringSleepQuarters());
+
+
+        Fighterships[i] = Fightershipcreator->createSpaceship();
+        Fighterships[i]->addr(new BoringBridge() ,new BoringSickBay(), new BoringSleepQuarters());
+
+        explorationShips[i] = explorationShipCreator->createSpaceship();
+        explorationShips[i]->addr(new BoringBridge() ,new BoringSickBay(), new BoringSleepQuarters());
+
+        radio->registerShip(Battleships[i]);
+        radio->registerShip(Fighterships[i]);
+
+        Battleships[i]->setRadio(radio);
+        Fighterships[i]->setRadio(radio);
+        explorationShips[i]->setRadio(radio);
+
+
+
+    }
+
+    station->getStatus();
+    station->getStatus();
+
 
 
 
@@ -62,28 +110,30 @@ void Fleet::listPlanets() {
 
     vector<Planet*> planets = mapFleet->getPlanets();
     vector<Route*> routes= mapFleet->getRoutes();
+    vectorPlanetsIterator* i = new vectorPlanetsIterator(planets);
+
     int id = 0;
 
 
     cout<<"/////////////////////////////////////////////////////////////////////////////"<<endl;
     cout<<"List of planets in current solar system:"<< endl;
 
-    for(auto it = planets.begin(); it != planets.end(); it++){
+    for(i->First() ;!i->IsDone();i->Next()){
 
 
         cout<<"ID"<<setw(20)<< "Name"<<setw(20)<<"Resources"<<setw(20)<<"ThreatLevel"<<setw(20)<<"relationship"<<setw(20)<<"discovered"
             <<setw(20)<<"habitable"<<setw(20)<<"status"<<endl;
 
 
-        if((*it)->isDiscovered()){
-            cout<<id++<<setw(20)<<(*it)->getPlanetName()<<setw(20)<<(*it)->getResources()<<setw(20)<<(*it)->getThreatLevel()<<setw(20)<<(*it)->getRelationship()
-                <<setw(20)<<(*it)->isDiscovered()<<setw(20)<<(*it)->isHabitable()
-                <<setw(20)<<(*it)->getStatus()<<endl;
+        if((*i).currentItem()->isDiscovered()){
+            cout<<id++<<setw(20)<<(*i).currentItem()->getPlanetName()<<setw(20)<<(*i).currentItem()->getResources()<<setw(20)<<(*i).currentItem()->getThreatLevel()<<setw(20)<<(*i).currentItem()->getRelationship()
+                <<setw(20)<<(*i).currentItem()->isDiscovered()<<setw(20)<<(*i).currentItem()->isHabitable()
+                <<setw(20)<<(*i).currentItem()->getStatus()<<endl;
 
         }else{
-            cout<<id++<<setw(20)<<(*it)->getPlanetName()<<setw(20)<<"Not Discovered"<<setw(20)<<"Not Discovered"<<setw(20)<<"Not Discovered"
-                <<setw(20)<<(*it)->isDiscovered()<<setw(20)<<"Not Discovered"
-                <<setw(20)<<(*it)->getStatus()<<endl;
+            cout<<id++<<setw(20)<<(*i).currentItem()->getPlanetName()<<setw(20)<<"Not Discovered"<<setw(20)<<"Not Discovered"<<setw(20)<<"Not Discovered"
+                <<setw(20)<<(*i).currentItem()->isDiscovered()<<setw(20)<<"Not Discovered"
+                <<setw(20)<<(*i).currentItem()->getStatus()<<endl;
         }
 
 
@@ -101,18 +151,18 @@ void Fleet::listPlanets() {
     id = 0;
 
 
-    for(auto it = planets.begin(); it != planets.end(); it++){
-        if((*it)->isHabitable()){
-            cout<<id++<<setw(20)<<(*it)->getPlanetName()<<endl;
+    for(i->First() ;!i->IsDone();i->Next()){
+        if((*i).currentItem()->isHabitable()){
+            cout<<id++<<setw(20)<<(*i).currentItem()->getPlanetName()<<endl;
         }
     }
     cout<<endl;
     id = 0;
 
     cout<<setw(20)<<"Planets we must still discover:"<<endl;
-    for(auto it = planets.begin(); it != planets.end(); it++){
-        if(!(*it)->isDiscovered()){
-            cout<<id++<<setw(20)<<(*it)->getPlanetName()<<endl;
+    for(i->First() ;!i->IsDone();i->Next()){
+        if(!(*i).currentItem()->isDiscovered()){
+            cout<<id++<<setw(20)<<(*i).currentItem()->getPlanetName()<<endl;
         }
     }
 
@@ -133,6 +183,11 @@ bool Fleet::tradePlanet(int index) {
             planetList.at(index)->addResources(100);
             resourcesFleet -= 100;
             planetList.at(index)->incRelationship();
+            if(planetList.at(index)->getRelationship()>=7){
+                planetList.at(index)->setHabitable(true);
+            }else{
+                planetList.at(index)->setHabitable(false);
+            }
             cout<<"Successfully Traded with planet"<<tempPlanet->getPlanetName()<<endl;
             return true;
         }else{
@@ -235,6 +290,27 @@ void Fleet::sustain() {
     for(auto it = shipsFleet.begin(); it != shipsFleet.end(); it++){
         newEnergy = (*it)->getEnergy()-10;
         (*it)->setEnergy(newEnergy);
-        //(*it)->getCrew()
+        (*it)->getCrew()->takeDamage();
     }
+}
+Fleet* Fleet::singletonInstance = 0;
+
+Fleet* Fleet::Instance() {
+    if(singletonInstance==0){
+        singletonInstance = new Fleet();
+    }
+
+    return singletonInstance;
+}
+
+bool Fleet::isTotalDomination() {
+    vector<Planet*> planets = mapFleet->getPlanets();
+    vectorPlanetsIterator* i = new vectorPlanetsIterator(planets);
+    for(i->First() ;!i->IsDone();i->Next()){
+        if(!(*i).currentItem()->isHabitable()){
+            return false;
+        }
+    }
+    return true;
+
 }

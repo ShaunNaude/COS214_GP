@@ -98,6 +98,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Command/Button.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Command/Command.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Command/attackPlanet.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Command/explorePlanet.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Command/moveFleetToPlanet.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/Command/tradePlanet.h">
+			<Option target="COS214_GP"/>
+		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/CommunicationSystem/Radio.h">
 			<Option target="COS214_GP"/>
 		</Unit>
@@ -224,6 +242,24 @@
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/include/SpaceShips/decorator.h">
 			<Option target="COS214_GP"/>
 		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Command/Button.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Command/Command.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Command/attackPlanet.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Command/explorePlanet.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Command/moveFleetToPlanet.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Command/tradePlanet.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/CommunicationSystem/Radio.cpp">
 			<Option target="COS214_GP"/>
 		</Unit>
@@ -234,6 +270,18 @@
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/Iterator.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/Iterator.h">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/vectorPlanetsIterator.cpp">
+			<Option target="COS214_GP"/>
+		</Unit>
+		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/vectorPlanetsIterator.h">
 			<Option target="COS214_GP"/>
 		</Unit>
 		<Unit filename="/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/ManningTheSpaceships/Captain.cpp">

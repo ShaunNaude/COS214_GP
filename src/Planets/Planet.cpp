@@ -131,6 +131,8 @@ void Planet::decRelationship() {
 void Planet::attackPlanet() {
 
     crittersPlanet.clear();
+    setHabitable(true);
+    setRelationship(10);
 
 }
 

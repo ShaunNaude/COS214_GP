@@ -1,7 +1,6 @@
 //
 // Created by danienel21 on 2019/10/19.
 //
-/*
 #include "ManningTheSpaceships/crewFactory.h"
 #include "ManningTheSpaceships/regularCrewFactory.h"
 #include "ManningTheSpaceships/regularCrew.h"
@@ -17,42 +16,50 @@
 
 #include <iostream>
 #include <Fleet/Fleet.h>
+#include <SpaceShips/FighterBlueprint.h>
+#include <Command/Command.h>
+#include <Command/attackPlanet.h>
+#include <Command/Button.h>
+#include <Command/tradePlanet.h>
+#include <Command/explorePlanet.h>
+#include <Command/moveFleetToPlanet.h>
+
 
 using namespace std;
 int main(){
-        //testing crew factory
-    //==================================
-    //    crewFactory* Fact1 = new regularCrewFactory(); //regular crew does not have soldiers
-    //    regularCrew* Regcrew = Fact1->ProduceRegularCrew();
-    //    cout<<"crew Well-being: "<<Regcrew->getAVGCrewWellBeing()<<endl;
 
-    //    Fact1 = new combatCrewFactory(); //combat crew does have soldiers
-    //    combatCrew* Comcrew = Fact1->ProduceCombatCrew();
-    //    cout<<"crew Well-being: "<<Comcrew->getAVGCrewWellBeing()<<endl;
-    //==================================
-        //testing spaceships factory
-    //==================================
-        BattleshipBlueprint* myBattleshipcreator = new BattleshipBlueprint;
-        Spaceships* myBattleship = myBattleshipcreator->createSpaceship();
-        myBattleship->addr(new BoringBridge() ,new BoringSickBay(), new BoringSleepQuarters());
-        Spaceships* tester = myBattleship->getSleep();
-        tester->printComponent();
-    //==================================
+    int day = 0;
+
+    Fleet* ImperialFleet = Fleet::Instance();
+
+    Command* attack = new attackPlanet(ImperialFleet);
+    Command* trade = new tradePlanet(ImperialFleet);
+    Command* explore = new explorePlanet(ImperialFleet);
+    Command* move = new moveFleetToPlanet(ImperialFleet);
+
+    Button* btnAttack = new Button(attack);
+    Button* btnTrade = new Button(trade);
+    Button* btnExplore = new Button(explore);
+    Button* btnMove = new Button(move);
 
 
 
 
 
+    while(!ImperialFleet->isTotalDomination()){
+        ImperialFleet->station->getStatus();
+        ImperialFleet->listPlanets();
 
-    Fleet* ImperialFleet = new Fleet();
 
-    ImperialFleet->listPlanets();
+    }
+
+
 
 
     return 0;
 }
 
-*/
+
 
 
 

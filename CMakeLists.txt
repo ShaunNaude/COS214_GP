@@ -96,4 +96,4 @@ add_executable(COS214_GP
         src/SpaceShips/Spaceships.cpp
         src/SpaceShips/SpaceStation.cpp
         src/SpaceShips/Transporter.cpp
-        src/SpaceShips/TransporterBlueprint.cpp)
+        src/SpaceShips/TransporterBlueprint.cpp src/Command/Command.cpp include/Command/Command.h src/Command/Button.cpp include/Command/Button.h src/Command/attackPlanet.cpp include/Command/attackPlanet.h src/Command/moveFleetToPlanet.cpp include/Command/moveFleetToPlanet.h src/Command/tradePlanet.cpp include/Command/tradePlanet.h src/Command/explorePlanet.cpp include/Command/explorePlanet.h src/Iterator/Iterator.cpp include/Iterator/Iterator.h src/Iterator/vectorPlanetsIterator.cpp include/Iterator/vectorPlanetsIterator.h)

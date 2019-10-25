@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/CommunicationSystem/Radio.h
+vector
+-
+string
+-
+
 ../include/Fleet/Fleet.h
 SpaceShips/Spaceships.h
 -
@@ -16,13 +22,49 @@ SpaceShips/SpaceStation.h
 Planets/Map.h
 -
 
+../include/ManningTheSpaceships/Captain.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
 ../include/ManningTheSpaceships/Commander.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Crew.h
+ManningTheSpaceships/Engineer.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Engineer.h
+ManningTheSpaceships/Doctor.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Doctor.h
+ManningTheSpaceships/chiefEngineer.h
+../include/ManningTheSpaceships/ManningTheSpaceships/chiefEngineer.h
+ManningTheSpaceships/Captain.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Captain.h
+ManningTheSpaceships/Navigator.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Navigator.h
+vector
+-
+cmath
+-
+
+../include/ManningTheSpaceships/Doctor.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/Engineer.h
 ManningTheSpaceships/Human.h
 ../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
 
 ../include/ManningTheSpaceships/Human.h
 string
 -
+
+../include/ManningTheSpaceships/Navigator.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/chiefEngineer.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
 
 ../include/Planets/Map.h
 vector
@@ -55,6 +97,10 @@ ManningTheSpaceships/Commander.h
 ../include/SpaceShips/Spaceships.h
 string
 -
+CommunicationSystem/Radio.h
+../include/SpaceShips/CommunicationSystem/Radio.h
+ManningTheSpaceships/Crew.h
+../include/SpaceShips/ManningTheSpaceships/Crew.h
 iostream
 -
 
@@ -69,4 +115,14 @@ Fleet/Fleet.h
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet/Fleet.h
 Planets/Route.h
 /home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Planets/Route.h
+../Iterator/vectorPlanetsIterator.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/vectorPlanetsIterator.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/Iterator.h
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/vectorPlanetsIterator.h
+vector
+-
+Iterator.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/Iterator.h
 

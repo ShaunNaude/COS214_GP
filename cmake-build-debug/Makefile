@@ -123,6 +123,168 @@ COS214_GP/fast:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/build
 .PHONY : COS214_GP/fast
 
+src/Command/Button.o: src/Command/Button.cpp.o
+
+.PHONY : src/Command/Button.o
+
+# target to build an object file
+src/Command/Button.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/Button.cpp.o
+.PHONY : src/Command/Button.cpp.o
+
+src/Command/Button.i: src/Command/Button.cpp.i
+
+.PHONY : src/Command/Button.i
+
+# target to preprocess a source file
+src/Command/Button.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/Button.cpp.i
+.PHONY : src/Command/Button.cpp.i
+
+src/Command/Button.s: src/Command/Button.cpp.s
+
+.PHONY : src/Command/Button.s
+
+# target to generate assembly for a file
+src/Command/Button.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/Button.cpp.s
+.PHONY : src/Command/Button.cpp.s
+
+src/Command/Command.o: src/Command/Command.cpp.o
+
+.PHONY : src/Command/Command.o
+
+# target to build an object file
+src/Command/Command.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/Command.cpp.o
+.PHONY : src/Command/Command.cpp.o
+
+src/Command/Command.i: src/Command/Command.cpp.i
+
+.PHONY : src/Command/Command.i
+
+# target to preprocess a source file
+src/Command/Command.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/Command.cpp.i
+.PHONY : src/Command/Command.cpp.i
+
+src/Command/Command.s: src/Command/Command.cpp.s
+
+.PHONY : src/Command/Command.s
+
+# target to generate assembly for a file
+src/Command/Command.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/Command.cpp.s
+.PHONY : src/Command/Command.cpp.s
+
+src/Command/attackPlanet.o: src/Command/attackPlanet.cpp.o
+
+.PHONY : src/Command/attackPlanet.o
+
+# target to build an object file
+src/Command/attackPlanet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.o
+.PHONY : src/Command/attackPlanet.cpp.o
+
+src/Command/attackPlanet.i: src/Command/attackPlanet.cpp.i
+
+.PHONY : src/Command/attackPlanet.i
+
+# target to preprocess a source file
+src/Command/attackPlanet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.i
+.PHONY : src/Command/attackPlanet.cpp.i
+
+src/Command/attackPlanet.s: src/Command/attackPlanet.cpp.s
+
+.PHONY : src/Command/attackPlanet.s
+
+# target to generate assembly for a file
+src/Command/attackPlanet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.s
+.PHONY : src/Command/attackPlanet.cpp.s
+
+src/Command/explorePlanet.o: src/Command/explorePlanet.cpp.o
+
+.PHONY : src/Command/explorePlanet.o
+
+# target to build an object file
+src/Command/explorePlanet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.o
+.PHONY : src/Command/explorePlanet.cpp.o
+
+src/Command/explorePlanet.i: src/Command/explorePlanet.cpp.i
+
+.PHONY : src/Command/explorePlanet.i
+
+# target to preprocess a source file
+src/Command/explorePlanet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.i
+.PHONY : src/Command/explorePlanet.cpp.i
+
+src/Command/explorePlanet.s: src/Command/explorePlanet.cpp.s
+
+.PHONY : src/Command/explorePlanet.s
+
+# target to generate assembly for a file
+src/Command/explorePlanet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.s
+.PHONY : src/Command/explorePlanet.cpp.s
+
+src/Command/moveFleetToPlanet.o: src/Command/moveFleetToPlanet.cpp.o
+
+.PHONY : src/Command/moveFleetToPlanet.o
+
+# target to build an object file
+src/Command/moveFleetToPlanet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.o
+.PHONY : src/Command/moveFleetToPlanet.cpp.o
+
+src/Command/moveFleetToPlanet.i: src/Command/moveFleetToPlanet.cpp.i
+
+.PHONY : src/Command/moveFleetToPlanet.i
+
+# target to preprocess a source file
+src/Command/moveFleetToPlanet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.i
+.PHONY : src/Command/moveFleetToPlanet.cpp.i
+
+src/Command/moveFleetToPlanet.s: src/Command/moveFleetToPlanet.cpp.s
+
+.PHONY : src/Command/moveFleetToPlanet.s
+
+# target to generate assembly for a file
+src/Command/moveFleetToPlanet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.s
+.PHONY : src/Command/moveFleetToPlanet.cpp.s
+
+src/Command/tradePlanet.o: src/Command/tradePlanet.cpp.o
+
+.PHONY : src/Command/tradePlanet.o
+
+# target to build an object file
+src/Command/tradePlanet.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.o
+.PHONY : src/Command/tradePlanet.cpp.o
+
+src/Command/tradePlanet.i: src/Command/tradePlanet.cpp.i
+
+.PHONY : src/Command/tradePlanet.i
+
+# target to preprocess a source file
+src/Command/tradePlanet.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.i
+.PHONY : src/Command/tradePlanet.cpp.i
+
+src/Command/tradePlanet.s: src/Command/tradePlanet.cpp.s
+
+.PHONY : src/Command/tradePlanet.s
+
+# target to generate assembly for a file
+src/Command/tradePlanet.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.s
+.PHONY : src/Command/tradePlanet.cpp.s
+
 src/CommunicationSystem/Radio.o: src/CommunicationSystem/Radio.cpp.o
 
 .PHONY : src/CommunicationSystem/Radio.o
@@ -230,6 +392,60 @@ src/Fleet/Fleet.s: src/Fleet/Fleet.cpp.s
 src/Fleet/Fleet.cpp.s:
 	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.s
 .PHONY : src/Fleet/Fleet.cpp.s
+
+src/Iterator/Iterator.o: src/Iterator/Iterator.cpp.o
+
+.PHONY : src/Iterator/Iterator.o
+
+# target to build an object file
+src/Iterator/Iterator.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.o
+.PHONY : src/Iterator/Iterator.cpp.o
+
+src/Iterator/Iterator.i: src/Iterator/Iterator.cpp.i
+
+.PHONY : src/Iterator/Iterator.i
+
+# target to preprocess a source file
+src/Iterator/Iterator.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.i
+.PHONY : src/Iterator/Iterator.cpp.i
+
+src/Iterator/Iterator.s: src/Iterator/Iterator.cpp.s
+
+.PHONY : src/Iterator/Iterator.s
+
+# target to generate assembly for a file
+src/Iterator/Iterator.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.s
+.PHONY : src/Iterator/Iterator.cpp.s
+
+src/Iterator/vectorPlanetsIterator.o: src/Iterator/vectorPlanetsIterator.cpp.o
+
+.PHONY : src/Iterator/vectorPlanetsIterator.o
+
+# target to build an object file
+src/Iterator/vectorPlanetsIterator.cpp.o:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o
+.PHONY : src/Iterator/vectorPlanetsIterator.cpp.o
+
+src/Iterator/vectorPlanetsIterator.i: src/Iterator/vectorPlanetsIterator.cpp.i
+
+.PHONY : src/Iterator/vectorPlanetsIterator.i
+
+# target to preprocess a source file
+src/Iterator/vectorPlanetsIterator.cpp.i:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.i
+.PHONY : src/Iterator/vectorPlanetsIterator.cpp.i
+
+src/Iterator/vectorPlanetsIterator.s: src/Iterator/vectorPlanetsIterator.cpp.s
+
+.PHONY : src/Iterator/vectorPlanetsIterator.s
+
+# target to generate assembly for a file
+src/Iterator/vectorPlanetsIterator.cpp.s:
+	$(MAKE) -f CMakeFiles/COS214_GP.dir/build.make CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.s
+.PHONY : src/Iterator/vectorPlanetsIterator.cpp.s
 
 src/ManningTheSpaceships/Captain.o: src/ManningTheSpaceships/Captain.cpp.o
 
@@ -1293,6 +1509,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... COS214_GP"
 	@echo "... edit_cache"
+	@echo "... src/Command/Button.o"
+	@echo "... src/Command/Button.i"
+	@echo "... src/Command/Button.s"
+	@echo "... src/Command/Command.o"
+	@echo "... src/Command/Command.i"
+	@echo "... src/Command/Command.s"
+	@echo "... src/Command/attackPlanet.o"
+	@echo "... src/Command/attackPlanet.i"
+	@echo "... src/Command/attackPlanet.s"
+	@echo "... src/Command/explorePlanet.o"
+	@echo "... src/Command/explorePlanet.i"
+	@echo "... src/Command/explorePlanet.s"
+	@echo "... src/Command/moveFleetToPlanet.o"
+	@echo "... src/Command/moveFleetToPlanet.i"
+	@echo "... src/Command/moveFleetToPlanet.s"
+	@echo "... src/Command/tradePlanet.o"
+	@echo "... src/Command/tradePlanet.i"
+	@echo "... src/Command/tradePlanet.s"
 	@echo "... src/CommunicationSystem/Radio.o"
 	@echo "... src/CommunicationSystem/Radio.i"
 	@echo "... src/CommunicationSystem/Radio.s"
@@ -1305,6 +1539,12 @@ help:
 	@echo "... src/Fleet/Fleet.o"
 	@echo "... src/Fleet/Fleet.i"
 	@echo "... src/Fleet/Fleet.s"
+	@echo "... src/Iterator/Iterator.o"
+	@echo "... src/Iterator/Iterator.i"
+	@echo "... src/Iterator/Iterator.s"
+	@echo "... src/Iterator/vectorPlanetsIterator.o"
+	@echo "... src/Iterator/vectorPlanetsIterator.i"
+	@echo "... src/Iterator/vectorPlanetsIterator.s"
 	@echo "... src/ManningTheSpaceships/Captain.o"
 	@echo "... src/ManningTheSpaceships/Captain.i"
 	@echo "... src/ManningTheSpaceships/Captain.s"
