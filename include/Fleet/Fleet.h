@@ -39,7 +39,8 @@ public:
 
     Map* getMap();
 
-
+    void fleetInfo();
+    void summarisedListPlanets();
     void listPlanets();
     bool attackPlanet(int index);
     bool tradePlanet(int index);
