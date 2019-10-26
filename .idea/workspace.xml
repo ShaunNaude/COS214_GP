@@ -13,10 +13,30 @@
   <component name="ChangeListManager">
     <list default="true" id="96a1b127-1028-4601-9b23-5cb9f4763218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrew.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/combatCrew.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Battleship.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Battleship.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/BattleshipBlueprint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/BattleshipBlueprint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Exploration_vessel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Exploration_vessel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Exploration_vesselBlueprint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Exploration_vesselBlueprint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Fighter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Fighter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/FighterBlueprint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/FighterBlueprint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Frigate.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Frigate.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/FrigateBlueprint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/FrigateBlueprint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/SpaceshipBlueprints.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/SpaceshipBlueprints.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Spaceships.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Spaceships.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/Transporter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/TransporterBlueprint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/COS214_GP" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COS214_GP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DanieTestMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DanieTestMain.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571932372933</updated>
       <workItem from="1571932374265" duration="12174000" />
-      <workItem from="1572000547844" duration="27231000" />
+      <workItem from="1572000547844" duration="28184000" />
     </task>
     <servers />
   </component>

@@ -103,28 +103,50 @@ void end(){
     cout<<"//////////////////////////////////////"<<endl;
 }
 
+void showDay(){
+    day++;
+
+    cout<<"THE FLEET IS CURRENTLY ON DAY "<<day<<endl;
+
+}
+
+void Continue(){
+    cout<<"Input C to continue"<<endl;
+    cin>>c;
+    while(c!='C'){
+        cout<<"Wrong Input"<<endl;
+        cout<<"Input C to continue"<<endl;
+        cin>>c;
+    }
+    sleep(1);
+
+}
+
 
 using namespace std;
 int main(){
 
 
 
-    ClearScreen();
 
 
 
 
     while(!ImperialFleet->isTotalDomination()){
+        ClearScreen();
+
+        showDay();
+
         ImperialFleet->fleetInfo();
         ImperialFleet->station->getStatus();
-        cout<<"Press enter to continue"<<endl;
-        cin.ignore();
+
+        Continue();
 
         ClearScreen();
         ImperialFleet->listPlanets();
 
-        cout<<"Press enter to continue"<<endl;
-        cin.ignore();
+        Continue();
+
         dailyOptions();
         choosePlanet();
 
@@ -145,10 +167,10 @@ int main(){
                 ImperialFleet->station->getStatus();
         }
 
-        cout<<"Press enter to continue"<<endl;
-        cin.ignore();
 
-       ImperialFleet->sustain();
+        ImperialFleet->sustain();
+
+        Continue();
 
 
 
@@ -169,6 +191,8 @@ int main(){
     return 0;
 }
 
+//  cout<<"Press enter to continue"<<endl;
+//  cin.ignore();
 
 
 
