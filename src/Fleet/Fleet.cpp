@@ -33,8 +33,8 @@ Fleet::Fleet() {
     resourcesFleet = 10000;
 
     p2->addBasicCritters(10);
-    p3->addBasicCritters(30);
-    p4->addBasicCritters(50);
+    p3->addBasicCritters(10);
+    p4->addBasicCritters(10);
 
     mapFleet = new Map();
 
@@ -196,6 +196,11 @@ bool Fleet::tradePlanet(int index) {
             planetList.at(index)->addResources(100);
             resourcesFleet -= 100;
             planetList.at(index)->incRelationship();
+
+            if(planetList.at(index)->getRelationship()>=7&&planetList.at(index)->getStatus()!="Conquered"){
+                planetList.at(index)->setStatus("Friendly Trade");
+            }
+
             if(planetList.at(index)->getRelationship()>=7){
                 planetList.at(index)->setHabitable(true);
             }else{
@@ -223,12 +228,14 @@ bool Fleet::explorePlanet(int index) {
     vector<Planet*> planetList;
     planetList = mapFleet->getPlanets();
     if(planetList.at(index)->isDiscovered()){
+        cout<<planetList.at(index)->getPlanetName()<<" already explored"<<endl;
         return false;
     }else{
         for(auto it = shipsFleet.begin(); it != shipsFleet.end(); it++){
             if((*it)->type=="Exploration"){
                 planetList.at(index)->addFriendlyShip((*it));
                 shipsFleet.erase(it--);
+                planetList.at(index)->setStatus("Explored");
                 planetList.at(index)->setDiscovered(true);
                 cout<<"Successfully explored"<<endl;
                 return true;
@@ -283,6 +290,7 @@ bool Fleet::attackPlanet(int index) {
             tempPlanet->attackPlanet();
                 resourcesFleet+= (int)(tempPlanet->getResources()/2);
                 tempPlanet->setResources((int)(tempPlanet->getResources()/2));
+                tempPlanet->setStatus("Conquered");
             return true;
         }else{
             cout<<"Fleet size to small to attack planet."<<endl;
@@ -306,6 +314,7 @@ void Fleet::sustain() {
         (*it)->getCrew()->takeDamage();
     }
 }
+
 Fleet* Fleet::singletonInstance = 0;
 
 Fleet* Fleet::Instance() {
