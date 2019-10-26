@@ -39,7 +39,7 @@ int main(){
 
     int day = 0;
 
-      Fleet* ImperialFleet = Fleet::Instance();
+    Fleet* ImperialFleet = Fleet::Instance();
 
     Command* attack = new attackPlanet(ImperialFleet);
     Command* trade = new tradePlanet(ImperialFleet);
@@ -49,7 +49,7 @@ int main(){
     Button* btnAttack = new Button(attack);
     Button* btnTrade = new Button(trade);
     Button* btnExplore = new Button(explore);
-    Button* btnMove = new Button(move);
+    Button* btnMove = new Button( move);
 
 
 
