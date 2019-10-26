@@ -17,7 +17,7 @@ public:
     virtual void Next()=0;
     ///generic method to get first item
     virtual void First()=0;
-    ///generic method to check
+    ///generic method to check if the iterator is out of bounds.
     virtual bool IsDone()=0;
     ///generic method to access item at current index
     virtual Planet* currentItem() const = 0;
