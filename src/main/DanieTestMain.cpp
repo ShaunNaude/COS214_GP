@@ -23,14 +23,23 @@
 #include <Command/tradePlanet.h>
 #include <Command/explorePlanet.h>
 #include <Command/moveFleetToPlanet.h>
+#include <unistd.h>
+
+void ClearScreen()
+{
+    int n;
+    for (n = 0; n < 10; n++)
+        printf( "\n\n\n\n\n\n\n\n\n\n" );
+}
 
 
 using namespace std;
 int main(){
 
+
     int day = 0;
 
-    Fleet* ImperialFleet = Fleet::Instance();
+      Fleet* ImperialFleet = Fleet::Instance();
 
     Command* attack = new attackPlanet(ImperialFleet);
     Command* trade = new tradePlanet(ImperialFleet);
@@ -48,7 +57,13 @@ int main(){
 
     while(!ImperialFleet->isTotalDomination()){
         ImperialFleet->station->getStatus();
+        sleep(5);
         ImperialFleet->listPlanets();
+
+
+
+        cout<<"What would you like to do today ? "<<endl;
+
 
 
     }

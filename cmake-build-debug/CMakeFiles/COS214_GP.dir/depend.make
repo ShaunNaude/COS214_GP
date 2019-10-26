@@ -100,6 +100,8 @@ CMakeFiles/COS214_GP.dir/src/Critters/critterGrunt.cpp.o: ../src/Critters/critte
 
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/CommunicationSystem/Radio.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Fleet/Fleet.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Iterator/Iterator.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Iterator/vectorPlanetsIterator.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Captain.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Commander.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Crew.h
@@ -107,23 +109,40 @@ CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Engineer.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Human.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Navigator.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/Soldier.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/chiefEngineer.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/combatCrew.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/combatCrewFactory.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/crewFactory.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/regularCrew.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/ManningTheSpaceships/regularCrewFactory.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Planets/Map.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Planets/Planet.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Planets/Route.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/Planets/homePlanet.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Battleship.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/BattleshipBlueprint.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/BoringBridge.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/BoringSickBay.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/BoringSleepQuarters.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Exploration_vessel.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Exploration_vesselBlueprint.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Fighter.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/FighterBlueprint.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Frigate.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/SpaceStation.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/SpaceshipBlueprints.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Spaceships.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/Transporter.h
+CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../include/SpaceShips/decorator.h
 CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../src/Fleet/Fleet.cpp
-CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../src/Iterator/Iterator.h
-CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o: ../src/Iterator/vectorPlanetsIterator.h
 
+CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.o: ../include/Iterator/Iterator.h
 CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.o: ../src/Iterator/Iterator.cpp
-CMakeFiles/COS214_GP.dir/src/Iterator/Iterator.cpp.o: ../src/Iterator/Iterator.h
 
-CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o: ../src/Iterator/Iterator.h
+CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o: ../include/Iterator/Iterator.h
+CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o: ../include/Iterator/vectorPlanetsIterator.h
 CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o: ../src/Iterator/vectorPlanetsIterator.cpp
-CMakeFiles/COS214_GP.dir/src/Iterator/vectorPlanetsIterator.cpp.o: ../src/Iterator/vectorPlanetsIterator.h
 
 CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Captain.cpp.o: ../include/ManningTheSpaceships/Captain.h
 CMakeFiles/COS214_GP.dir/src/ManningTheSpaceships/Captain.cpp.o: ../include/ManningTheSpaceships/Human.h
@@ -586,6 +605,12 @@ CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o: ../include/SpaceShips/S
 CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o: ../include/SpaceShips/decorator.h
 CMakeFiles/COS214_GP.dir/src/SpaceShips/decorator.cpp.o: ../src/SpaceShips/decorator.cpp
 
+CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Command/Button.h
+CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Command/Command.h
+CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Command/attackPlanet.h
+CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Command/explorePlanet.h
+CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Command/moveFleetToPlanet.h
+CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Command/tradePlanet.h
 CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/CommunicationSystem/Radio.h
 CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/Fleet/Fleet.h
 CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o: ../include/ManningTheSpaceships/Captain.h

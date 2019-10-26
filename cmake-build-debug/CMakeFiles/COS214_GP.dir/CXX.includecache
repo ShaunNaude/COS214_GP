@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+../include/Command/Button.h
+
+../include/Command/Command.h
+
+../include/Command/attackPlanet.h
+Command.h
+../include/Command/Command.h
+
+../include/Command/explorePlanet.h
+Command.h
+../include/Command/Command.h
+
+../include/Command/moveFleetToPlanet.h
+Command.h
+../include/Command/Command.h
+
+../include/Command/tradePlanet.h
+Command.h
+../include/Command/Command.h
+
 ../include/CommunicationSystem/Radio.h
 vector
 -
@@ -62,9 +82,37 @@ string
 ManningTheSpaceships/Human.h
 ../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
 
+../include/ManningTheSpaceships/Soldier.h
+ManningTheSpaceships/Human.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
 ../include/ManningTheSpaceships/chiefEngineer.h
 ManningTheSpaceships/Human.h
 ../include/ManningTheSpaceships/ManningTheSpaceships/Human.h
+
+../include/ManningTheSpaceships/combatCrew.h
+ManningTheSpaceships/Crew.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Crew.h
+ManningTheSpaceships/Soldier.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Soldier.h
+
+../include/ManningTheSpaceships/combatCrewFactory.h
+ManningTheSpaceships/crewFactory.h
+../include/ManningTheSpaceships/ManningTheSpaceships/crewFactory.h
+
+../include/ManningTheSpaceships/crewFactory.h
+ManningTheSpaceships/regularCrew.h
+../include/ManningTheSpaceships/ManningTheSpaceships/regularCrew.h
+ManningTheSpaceships/combatCrew.h
+../include/ManningTheSpaceships/ManningTheSpaceships/combatCrew.h
+
+../include/ManningTheSpaceships/regularCrew.h
+ManningTheSpaceships/Crew.h
+../include/ManningTheSpaceships/ManningTheSpaceships/Crew.h
+
+../include/ManningTheSpaceships/regularCrewFactory.h
+ManningTheSpaceships/crewFactory.h
+../include/ManningTheSpaceships/ManningTheSpaceships/crewFactory.h
 
 ../include/Planets/Map.h
 vector
@@ -78,13 +126,57 @@ vector
 string
 -
 
-../include/Planets/Route.h
-Planet.h
-../include/Planets/Planet.h
+../include/SpaceShips/Battleship.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+ManningTheSpaceships/regularCrewFactory.h
+../include/SpaceShips/ManningTheSpaceships/regularCrewFactory.h
+ManningTheSpaceships/regularCrew.h
+../include/SpaceShips/ManningTheSpaceships/regularCrew.h
 
-../include/Planets/homePlanet.h
-Planet.h
-../include/Planets/Planet.h
+../include/SpaceShips/BattleshipBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
+../include/SpaceShips/BoringBridge.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/BoringSickBay.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/BoringSleepQuarters.h
+decorator.h
+../include/SpaceShips/decorator.h
+
+../include/SpaceShips/Exploration_vessel.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+ManningTheSpaceships/regularCrewFactory.h
+../include/SpaceShips/ManningTheSpaceships/regularCrewFactory.h
+ManningTheSpaceships/regularCrew.h
+../include/SpaceShips/ManningTheSpaceships/regularCrew.h
+
+../include/SpaceShips/Fighter.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+ManningTheSpaceships/combatCrewFactory.h
+../include/SpaceShips/ManningTheSpaceships/combatCrewFactory.h
+ManningTheSpaceships/combatCrew.h
+../include/SpaceShips/ManningTheSpaceships/combatCrew.h
+
+../include/SpaceShips/FighterBlueprint.h
+SpaceshipBlueprints.h
+../include/SpaceShips/SpaceshipBlueprints.h
+
+../include/SpaceShips/Frigate.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+ManningTheSpaceships/regularCrewFactory.h
+../include/SpaceShips/ManningTheSpaceships/regularCrewFactory.h
+ManningTheSpaceships/regularCrew.h
+../include/SpaceShips/ManningTheSpaceships/regularCrew.h
 
 ../include/SpaceShips/SpaceStation.h
 Spaceships.h
@@ -93,6 +185,22 @@ vector
 -
 ManningTheSpaceships/Commander.h
 ../include/SpaceShips/ManningTheSpaceships/Commander.h
+
+../include/SpaceShips/SpaceshipBlueprints.h
+Battleship.h
+../include/SpaceShips/Battleship.h
+Exploration_vessel.h
+../include/SpaceShips/Exploration_vessel.h
+Fighter.h
+../include/SpaceShips/Fighter.h
+Frigate.h
+../include/SpaceShips/Frigate.h
+Transporter.h
+../include/SpaceShips/Transporter.h
+iostream
+-
+string
+-
 
 ../include/SpaceShips/Spaceships.h
 string
@@ -104,25 +212,61 @@ ManningTheSpaceships/Crew.h
 iostream
 -
 
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet.cpp
-Planets/homePlanet.h
--
+../include/SpaceShips/Transporter.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
+ManningTheSpaceships/regularCrewFactory.h
+../include/SpaceShips/ManningTheSpaceships/regularCrewFactory.h
+ManningTheSpaceships/regularCrew.h
+../include/SpaceShips/ManningTheSpaceships/regularCrew.h
+
+../include/SpaceShips/decorator.h
+Spaceships.h
+../include/SpaceShips/Spaceships.h
 iostream
 -
-iomanip
+
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/DanieTestMain.cpp
+ManningTheSpaceships/crewFactory.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/crewFactory.h
+ManningTheSpaceships/regularCrewFactory.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/regularCrewFactory.h
+ManningTheSpaceships/regularCrew.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/regularCrew.h
+ManningTheSpaceships/Crew.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/Crew.h
+ManningTheSpaceships/combatCrewFactory.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/combatCrewFactory.h
+ManningTheSpaceships/combatCrew.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/ManningTheSpaceships/combatCrew.h
+SpaceShips/Battleship.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/SpaceShips/Battleship.h
+SpaceShips/BattleshipBlueprint.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/SpaceShips/BattleshipBlueprint.h
+SpaceShips/BoringBridge.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/SpaceShips/BoringBridge.h
+SpaceShips/BoringSickBay.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/SpaceShips/BoringSickBay.h
+SpaceShips/BoringSleepQuarters.h
+/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/main/SpaceShips/BoringSleepQuarters.h
+iostream
 -
 Fleet/Fleet.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Fleet/Fleet.h
-Planets/Route.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Fleet/Planets/Route.h
-../Iterator/vectorPlanetsIterator.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/vectorPlanetsIterator.h
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/Iterator.h
-
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/vectorPlanetsIterator.h
-vector
 -
-Iterator.h
-/home/danienel21/Desktop/COS 214/Pracs/GroupProject/COS214_GP/COS214_GP/src/Iterator/Iterator.h
+SpaceShips/FighterBlueprint.h
+-
+Command/Command.h
+-
+Command/attackPlanet.h
+-
+Command/Button.h
+-
+Command/tradePlanet.h
+-
+Command/explorePlanet.h
+-
+Command/moveFleetToPlanet.h
+-
+unistd.h
+-
 
