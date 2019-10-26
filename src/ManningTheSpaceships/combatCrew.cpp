@@ -63,15 +63,7 @@ void combatCrew::takeDamage()
         it++;
     }
 
-    damage = (rand() % 25) + 1;
-     vector<Soldier*>::iterator it2;
-    it2 = soldiers.begin();
-    while( (it2 != soldiers.end()) )
-    {
-        (*it)->setWellBeing((*it)->getWellBeing() - damage);
-        it2++;
-    }
-
+   
      damage = (rand() % 25) + 1;
     this->captain->setWellBeing(captain->getWellBeing() - damage);
 

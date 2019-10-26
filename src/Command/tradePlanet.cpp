@@ -3,7 +3,7 @@
 //
 
 #include "Command/tradePlanet.h"
-#include "Fleet.h"
+#include "Fleet/Fleet.h"
 
 bool tradePlanet::execute(int index) {
     return receiver->tradePlanet(index);

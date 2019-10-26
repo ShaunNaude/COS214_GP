@@ -1,13 +1,12 @@
 #ifndef SPACESHIPBLUEPRINTS_H
 #define SPACESHIPBLUEPRINTS_H
-#include "Battleship.h"
-#include "Exploration_vessel.h"
-#include "Fighter.h"
-#include "Frigate.h"
-#include "Transporter.h"
+#include "SpaceShips/Battleship.h"
+#include "SpaceShips/Exploration_vessel.h"
+#include "SpaceShips/Fighter.h"
+#include "SpaceShips/Frigate.h"
+#include "SpaceShips/Transporter.h"
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 /**This class is the abstract factory class and is used to define an abstract blueprint.
@@ -18,7 +17,7 @@ using namespace std;
 class SpaceshipBlueprints
 {
 private:
-    /* data */
+    
 public:
     ///SpaceshipBlueprints constructor.
     SpaceshipBlueprints(/* args */);
