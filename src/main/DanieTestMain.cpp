@@ -35,7 +35,6 @@ char c;
 
 Fleet* ImperialFleet = Fleet::Instance();
 
-
 Command* attack = new attackPlanet(ImperialFleet);
 Command* trade = new tradePlanet(ImperialFleet);
 Command* explore = new explorePlanet(ImperialFleet);
@@ -56,7 +55,7 @@ void ClearScreen()
 }
 
 
-bool dailyOptions(){
+void dailyOptions(){
     cout<<"//////////////////////////////////"<<endl;
     cout<<"What would you like to do today ? "<<endl;
     cout<<"///////////////////////////////////"<<endl;
@@ -83,7 +82,7 @@ bool dailyOptions(){
 
 }
 
-bool choosePlanet(){
+void choosePlanet(){
     ImperialFleet->summarisedListPlanets();
     cout<<"Choose planet";
     cin>>indexPlanet;
@@ -97,28 +96,57 @@ bool choosePlanet(){
 
 }
 
+void end(){
+    cout<<"//////////////////////////////////////"<<endl;
+    cout<<"YOU HAVE CONQUERED ALL THE PLANETS "<<endl;
+    cout<<"HUMANITY REIGNS"<<endl;
+    cout<<"//////////////////////////////////////"<<endl;
+}
+
+void showDay(){
+    day++;
+
+    cout<<"THE FLEET IS CURRENTLY ON DAY "<<day<<endl;
+
+}
+
+void Continue(){
+    cout<<"Input C to continue"<<endl;
+    cin>>c;
+    while(c!='C'){
+        cout<<"Wrong Input"<<endl;
+        cout<<"Input C to continue"<<endl;
+        cin>>c;
+    }
+    sleep(1);
+
+}
+
 
 using namespace std;
 int main(){
 
 
 
-    ClearScreen();
 
 
 
 
     while(!ImperialFleet->isTotalDomination()){
+        ClearScreen();
+
+        showDay();
+
         ImperialFleet->fleetInfo();
         ImperialFleet->station->getStatus();
-        cout<<"Press enter to continue"<<endl;
-        cin.ignore();
+
+        Continue();
 
         ClearScreen();
         ImperialFleet->listPlanets();
 
-        cout<<"Press enter to continue"<<endl;
-        cin.ignore();
+        Continue();
+
         dailyOptions();
         choosePlanet();
 
@@ -127,7 +155,7 @@ int main(){
                 if(!btnAttack->press(indexPlanet)){}
                 break;
             case 1:
-                if(!btnTrade->press(1)){}
+                if(!btnTrade->press(indexPlanet)){}
                 break;
             case 2:
                 if(!btnExplore->press(indexPlanet)){}
@@ -139,10 +167,10 @@ int main(){
                 ImperialFleet->station->getStatus();
         }
 
-        cout<<"Press enter to continue"<<endl;
-        cin.ignore();
 
         ImperialFleet->sustain();
+
+        Continue();
 
 
 
@@ -155,11 +183,16 @@ int main(){
     }
 
 
+    end();
+
+
 
 
     return 0;
 }
 
+//  cout<<"Press enter to continue"<<endl;
+//  cin.ignore();
 
 
 
