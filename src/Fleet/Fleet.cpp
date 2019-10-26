@@ -18,10 +18,10 @@
 
 Fleet::Fleet() {
 
-    Planet *p1 = new homePlanet("home",1000);
-    Planet* p2 = new Planet("CritterLand",2000);
-    Planet* p3 = new Planet("GrootCritterLand",2000);
-    Planet* p4 = new Planet("Hippies",2000);
+    Planet *p1 = new homePlanet("Mar Sara",1000);
+    Planet* p2 = new Planet("Aiur",2000);
+    Planet* p3 = new Planet("Tarsonis",2000);
+    Planet* p4 = new Planet("Char",2000);
 
     Route * r1 = new Route(p1,p2,10);
     Route * r4 = new Route(p1,p3,10);
@@ -30,7 +30,7 @@ Fleet::Fleet() {
 
 
 
-
+    resourcesFleet = 10000;
 
     p2->addBasicCritters(10);
     p3->addBasicCritters(30);
@@ -325,5 +325,71 @@ bool Fleet::isTotalDomination() {
         }
     }
     return true;
+
+}
+
+void Fleet::summarisedListPlanets() {
+
+    vector<Planet*> planets = mapFleet->getPlanets();
+    vectorPlanetsIterator* i = new vectorPlanetsIterator(planets);
+
+
+    int id = 0;
+
+
+    cout<<"/////////////////////////////////////////////////////////////////////////////"<<endl;
+    cout<<"List of planets in current solar system:"<< endl;
+
+
+    cout<<"ID"<<setw(15)<< "Name"<<setw(15)<<"Resources"<<setw(15)<<"ThreatLevel"<<setw(15)<<"relationship"<<setw(15)<<"discovered"
+        <<setw(15)<<"habitable"<<setw(15)<<"status"<<endl;
+
+    for(i->First() ;!i->IsDone();i->Next()){
+
+        if((*i).currentItem()->isDiscovered()){
+            cout<<id++<<setw(15)<<(*i).currentItem()->getPlanetName()<<setw(15)<<(*i).currentItem()->getResources()<<setw(15)<<(*i).currentItem()->getThreatLevel()<<setw(15)<<(*i).currentItem()->getRelationship()
+                <<setw(15)<<(*i).currentItem()->isDiscovered()<<setw(15)<<(*i).currentItem()->isHabitable()
+                <<setw(15)<<(*i).currentItem()->getStatus()<<endl;
+
+        }else{
+            cout<<id++<<setw(15)<<(*i).currentItem()->getPlanetName()<<setw(15)<<"???"<<setw(15)<<"???"<<setw(15)<<"???"
+                <<setw(15)<<(*i).currentItem()->isDiscovered()<<setw(15)<<"???"
+                <<setw(15)<<(*i).currentItem()->getStatus()<<endl;
+        }
+
+
+
+    }
+
+
+
+
+}
+
+void Fleet::fleetInfo() {
+
+    cout<<"//////////////////////////////////"<<endl;
+    cout<<"Fleet Info   :"<<endl;
+    cout<<"//////////////////////////////////"<<endl;
+
+    cout<<"Resources: "<<resourcesFleet<<endl;
+    cout<<"Current fleet location: "<<currentPlanet->getPlanetName()<<endl;
+    cout<<"Fleet Size: "<< shipsFleet.size()<<endl;
+    cout<<"Fleet Composition"<<endl;
+    int count = 0;
+
+    for(auto it = shipsFleet.begin();it!=shipsFleet.end();it++){
+        cout<<(*it)->type<<"  ";
+        count++;
+        if(count==5){
+            count = 0;
+            cout<<endl;
+        }
+    }
+    cout<<"////////////////////////////////////////////////"<<endl;
+
+
+
+
 
 }

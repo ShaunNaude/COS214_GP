@@ -13,8 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="96a1b127-1028-4601-9b23-5cb9f4763218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/attackPlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/explorePlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/moveFleetToPlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Command/tradePlanet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/Fleet/Fleet.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/COS214_GP.dir/src/main/DanieTestMain.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/COS214_GP" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/COS214_GP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Fleet/Fleet.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Fleet/Fleet.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fleet/Fleet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DanieTestMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DanieTestMain.cpp" afterDir="false" />
     </list>
@@ -83,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571932372933</updated>
       <workItem from="1571932374265" duration="12174000" />
-      <workItem from="1572000547844" duration="18190000" />
+      <workItem from="1572000547844" duration="24134000" />
     </task>
     <servers />
   </component>
@@ -108,28 +114,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/main/DanieTestMain.cpp</url>
-          <line>57</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main/DanieTestMain.cpp</url>
-          <line>39</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main/DanieTestMain.cpp</url>
-          <line>41</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main/DanieTestMain.cpp</url>
-          <line>43</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main/DanieTestMain.cpp</url>
-          <line>48</line>
-          <option name="timeStamp" value="8" />
+          <line>131</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
