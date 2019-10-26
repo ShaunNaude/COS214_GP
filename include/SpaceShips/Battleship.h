@@ -1,6 +1,6 @@
 #ifndef BATTLESHIP_H
 #define BATTLESHIP_H
-#include "Spaceships.h"
+#include "SpaceShips/Spaceships.h"
 #include "ManningTheSpaceships/regularCrewFactory.h"
 #include "ManningTheSpaceships/regularCrew.h"
 

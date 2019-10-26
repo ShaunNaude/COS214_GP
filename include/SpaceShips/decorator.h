@@ -3,6 +3,7 @@
 #include "Spaceships.h"
 #include <iostream>
 using namespace std;
+
 class decorator: public Spaceships
 {
 private:

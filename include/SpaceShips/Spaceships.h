@@ -113,9 +113,11 @@ public:
      * The method is decalared as virtual becasue different ships will handel messages in different ways.
      * */
     virtual void receiveMsg(string); 
+    /**
+     * This function will remove Energy from the ship as the ship travels through outer-space
+     * This function takes an integer parameter.
+     * The value**/
     
-
-    ///Other functions
     void DepleteEnergy(int amountLost);
     ///Decorator function
     virtual void printComponent() = 0;

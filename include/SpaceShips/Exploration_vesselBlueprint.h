@@ -1,6 +1,6 @@
 #ifndef EXPLORATION_VESSELBLUEPRINT_H
 #define EXPLORATION_VESSELBLUEPRINT_H
-#include "SpaceshipBlueprints.h"
+#include "SpaceShips/SpaceshipBlueprints.h"
 
 /**
  * This class is a Concrete factory in the abstract factory design pattern.

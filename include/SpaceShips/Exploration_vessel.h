@@ -1,6 +1,6 @@
 #ifndef EXPLORATION_VESSEL_H
 #define EXPLORATION_VESSEL_H
-#include "Spaceships.h"
+#include "SpaceShips/Spaceships.h"
 #include "ManningTheSpaceships/regularCrewFactory.h"
 #include "ManningTheSpaceships/regularCrew.h"
 
