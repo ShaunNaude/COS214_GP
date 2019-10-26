@@ -2,13 +2,20 @@
 #define FRIGATEBLUEPRINT_H
 #include "SpaceshipBlueprints.h"
 
+/**
+ * This class is a Concrete factory in the abstract factory design pattern.
+ **/
+
 class FrigateBlueprint: public SpaceshipBlueprints
 {
 private:
-    /* data */
+    
 public:
-    FrigateBlueprint(/* args */);
+    ///generic Constructor
+    FrigateBlueprint();
+    ///generic Destructor
     ~FrigateBlueprint();
+    ///implementation of the pure virtual function inherited from the base class
     Spaceships* createSpaceship();
 };
 
