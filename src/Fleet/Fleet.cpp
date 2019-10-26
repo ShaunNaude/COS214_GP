@@ -50,6 +50,11 @@ Fleet::Fleet() {
 
     currentPlanet = p1;
 
+    radio = new Radio();
+    station = new SpaceStation();
+    radio->registerShip(station);
+    station->setRadio(radio);
+
 
     BattleshipBlueprint* myBattleshipcreator = new BattleshipBlueprint();
     FighterBlueprint* Fightershipcreator = new FighterBlueprint();
@@ -87,6 +92,14 @@ Fleet::Fleet() {
 
 
 
+    }
+
+
+
+    for(int i = 0 ; i < 5 ; i ++){
+        shipsFleet.push_back(Battleships[i]);
+        shipsFleet.push_back(Fighterships[i]);
+        shipsFleet.push_back(explorationShips[i]);
     }
 
     station->getStatus();
