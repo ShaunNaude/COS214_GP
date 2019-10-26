@@ -1,19 +1,14 @@
-
-// Created by danienel21 on 2019/10/19.
-//
 #include "ManningTheSpaceships/crewFactory.h"
 #include "ManningTheSpaceships/regularCrewFactory.h"
 #include "ManningTheSpaceships/regularCrew.h"
 #include "ManningTheSpaceships/Crew.h"
 #include "ManningTheSpaceships/combatCrewFactory.h"
 #include "ManningTheSpaceships/combatCrew.h"
-
 #include "SpaceShips/Battleship.h"
 #include "SpaceShips/BattleshipBlueprint.h"
 #include "SpaceShips/BoringBridge.h"
 #include "SpaceShips/BoringSickBay.h"
 #include "SpaceShips/BoringSleepQuarters.h"
-
 #include <iostream>
 #include <Fleet/Fleet.h>
 #include <SpaceShips/FighterBlueprint.h>
@@ -171,43 +166,8 @@ int main(){
         ImperialFleet->sustain();
 
         Continue();
-
-
-
-
-
-
-
-
-
     }
 
-
     end();
-
-
-
-
     return 0;
 }
-
-//  cout<<"Press enter to continue"<<endl;
-//  cin.ignore();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
