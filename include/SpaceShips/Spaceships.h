@@ -68,6 +68,8 @@ public:
     ///generic Destructor
     ~Spaceships();
     ///generic get method
+    Crew* getCrew();
+    ///generic get method
     int getDisplacement() const;
     ///generic get method
     int getPower() const;
@@ -116,16 +118,15 @@ public:
     /**
      * This function will remove Energy from the ship as the ship travels through outer-space
      * This function takes an integer parameter.
-     * The value**/
-    
+     * The value is dependent on how far the ship travels
+     * */
     void DepleteEnergy(int amountLost);
     ///Decorator function
     virtual void printComponent() = 0;
+    /**
+     * This function will add the decorations on to the concrete component of the decorator design pattern
+     * */
     virtual void addr(Spaceships*,Spaceships*,Spaceships*);
-
-    Crew* getCrew();
-
-
 
 };
 

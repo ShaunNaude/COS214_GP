@@ -2,6 +2,10 @@
 #define BORINGBRIDGE_H
 #include "decorator.h"
 class BoringBridge: public decorator
+
+/**
+ * */
+
 {
 private:
     /* data */

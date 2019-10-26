@@ -63,8 +63,7 @@ void combatCrew::takeDamage()
         it++;
     }
 
-   
-     damage = (rand() % 25) + 1;
+    damage = (rand() % 25) + 1;
     this->captain->setWellBeing(captain->getWellBeing() - damage);
 
      damage = (rand() % 25) + 1;
