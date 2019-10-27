@@ -42,5 +42,5 @@ void Human::setRank(int rank) {
 }
 
 void Human::receiveTreatment(){
-    this->WellBeing = 100;
+    this->WellBeing = 99;
 }

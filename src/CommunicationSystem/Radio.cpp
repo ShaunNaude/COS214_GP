@@ -59,7 +59,7 @@ void Radio::getShipReports(){
     cout<<"|"<<"-------------------                             |"<<endl;
     cout<<"|"<<"                                                |"<<endl;
     cout<<"|"<<" ->Average Energy: "<<trunc(avgEnergy)<<"                           |"<<endl;
-    cout<<"|"<<" ->Average well-being: "<<trunc(avgWellbeing)<<"                      |"<<endl;
+    cout<<"|"<<" ->Average well-being: "<<trunc(avgWellbeing)<<"                       |"<<endl;
     cout<<"--------------------------------------------------"<<endl;
 
     it = ships.begin();

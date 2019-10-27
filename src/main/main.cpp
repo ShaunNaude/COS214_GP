@@ -79,7 +79,7 @@ void dailyOptions(){
 
 void choosePlanet(){
     ImperialFleet->summarisedListPlanets();
-    cout<<"Choose planet";
+    cout<<"Choose planet: ";
     cin>>indexPlanet;
     while(cin.fail()){
         cin.clear();
@@ -120,12 +120,6 @@ void Continue(){
 
 using namespace std;
 int main(){
-
-
-
-
-
-
 
     while(!ImperialFleet->isTotalDomination()){
         ClearScreen();

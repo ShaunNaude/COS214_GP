@@ -8,7 +8,7 @@ combatCrew::combatCrew(/* args */) {
         k->setName("Soldier :" + to_string(i));
         k->setRank(5);
         k->setDuty(true);
-        k->setWellBeing(100);
+        k->setWellBeing(99);
         soldiers.push_back(k);
     }
 
